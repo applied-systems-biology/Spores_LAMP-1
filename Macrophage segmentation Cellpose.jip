@@ -1,0 +1,4170 @@
+{
+  "jipipe:project-type" : "project",
+  "jipipe:project-format-version" : 1,
+  "metadata" : {
+    "name" : "Empty (1 compartment)",
+    "description" : "<html><head></head><body></body></html>",
+    "summary" : "<html><head></head><body></body></html>",
+    "authors" : [ ],
+    "acknowledgements" : [ ],
+    "website" : "",
+    "license" : "",
+    "citation" : "",
+    "dependency-citations" : [ ],
+    "categories" : [ ],
+    "update-site-dependencies" : [ ],
+    "template-description" : "Project that contains one compartment",
+    "permissions" : {
+      "prevent-adding-deleting-nodes" : false,
+      "prevent-modifying-slots" : false
+    },
+    "user-directories" : {
+      "user-directories" : {
+        "template" : {
+          "parameters" : {
+            "path" : {
+              "key" : "path",
+              "name" : "Path",
+              "description" : "The path that will be referenced",
+              "hidden" : false,
+              "field-class" : "java.nio.file.Path",
+              "value" : "",
+              "short-key" : "path",
+              "field-class-id" : "path",
+              "ui-order" : -90
+            },
+            "key" : {
+              "key" : "key",
+              "name" : "Key",
+              "description" : "The key that will be used to access the directory. Cannot be empty.",
+              "hidden" : false,
+              "field-class" : "java.lang.String",
+              "value" : "",
+              "short-key" : "key",
+              "field-class-id" : "string",
+              "ui-order" : -100
+            }
+          }
+        },
+        "items" : [ ]
+      }
+    },
+    "global-parameters" : {
+      "parameters" : { }
+    },
+    "node-templates" : [ ],
+    "restore-tabs" : true
+  },
+  "dependencies" : [ {
+    "metadata" : {
+      "name" : "Core",
+      "description" : "<html><head></head><body>A JIPipe project</body></html>",
+      "summary" : "<html><head></head><body></body></html>",
+      "authors" : [ ],
+      "acknowledgements" : [ ],
+      "website" : "",
+      "license" : "",
+      "citation" : "",
+      "dependency-citations" : [ ],
+      "categories" : [ ]
+    },
+    "id" : "org.hkijena.jipipe:core",
+    "version" : "5.3.0",
+    "provides" : [ ],
+    "ij:update-site-dependencies" : [ ],
+    "dependencies" : [ ],
+    "ij:update-site-providers" : [ ]
+  }, {
+    "metadata" : {
+      "name" : "Python integration",
+      "description" : "<html><head></head><body>A JIPipe project</body></html>",
+      "summary" : "<html><head></head><body></body></html>",
+      "authors" : [ ],
+      "acknowledgements" : [ ],
+      "website" : "",
+      "license" : "",
+      "citation" : "",
+      "dependency-citations" : [ ],
+      "categories" : [ ]
+    },
+    "id" : "org.hkijena.jipipe:python",
+    "version" : "5.3.0",
+    "provides" : [ ],
+    "ij:update-site-dependencies" : [ ],
+    "dependencies" : [ ],
+    "ij:update-site-providers" : [ ]
+  }, {
+    "metadata" : {
+      "name" : "Utilities",
+      "description" : "<html><head></head><body>Utility algorithms</body></html>",
+      "summary" : "<html><head></head><body>Utility algorithms</body></html>",
+      "authors" : [ {
+        "title" : null,
+        "first-name" : "Zoltán",
+        "last-name" : "Cseresnyés",
+        "affiliations-list" : [ "Applied Systems Biology, Leibniz Institute for Natural Product Research and Infection Biology – Hans-Knöll-Institute, Jena, Germany" ],
+        "website" : "https://www.leibniz-hki.de/en/staff-details.html?member=144",
+        "contact" : "zoltan.cseresnyes@leibniz-hki.de",
+        "first-author" : true,
+        "corresponding-author" : false,
+        "orcid" : "https://orcid.org/0000-0002-6574-2588",
+        "custom-text" : "<html><head></head><body></body></html>"
+      }, {
+        "title" : null,
+        "first-name" : "Ruman",
+        "last-name" : "Gerst",
+        "affiliations-list" : [ "Applied Systems Biology, Leibniz Institute for Natural Product Research and Infection Biology – Hans-Knöll-Institute, Jena, Germany", "Faculty of Biological Sciences, Friedrich Schiller University Jena, Germany" ],
+        "website" : "https://www.leibniz-hki.de/en/staff-details.html?member=1027",
+        "contact" : "ruman.gerst@leibniz-hki.de",
+        "first-author" : true,
+        "corresponding-author" : false,
+        "orcid" : "https://orcid.org/0000-0002-0723-6038",
+        "custom-text" : "<html><head></head><body></body></html>"
+      }, {
+        "title" : null,
+        "first-name" : "Marc Thilo",
+        "last-name" : "Figge",
+        "affiliations-list" : [ "Applied Systems Biology, Leibniz Institute for Natural Product Research and Infection Biology – Hans-Knöll-Institute, Jena, Germany", "Institute of Microbiology, Faculty of Biological Sciences, Friedrich Schiller University Jena, Germany" ],
+        "website" : "https://www.leibniz-hki.de/en/staff-details.html?member=81",
+        "contact" : "thilo.figge@leibniz-hki.de",
+        "first-author" : false,
+        "corresponding-author" : true,
+        "orcid" : "https://orcid.org/0000-0002-4044-9166",
+        "custom-text" : "<html><head></head><body></body></html>"
+      } ],
+      "acknowledgements" : [ ],
+      "website" : "https://www.jipipe.org/",
+      "license" : "MIT",
+      "citation" : "Gerst, R., Cseresnyés, Z. & Figge, M.T. JIPipe: visual batch processing for ImageJ. Nat Methods (2023). https://doi.org/10.1038/s41592-022-01744-4",
+      "dependency-citations" : [ ],
+      "categories" : [ "Data processing", "Scripting" ]
+    },
+    "id" : "org.hkijena.jipipe:utils",
+    "version" : "5.3.0",
+    "provides" : [ ],
+    "ij:update-site-dependencies" : [ ],
+    "dependencies" : [ ],
+    "ij:update-site-providers" : [ ]
+  }, {
+    "metadata" : {
+      "name" : "ImageJ integration",
+      "description" : "<html><head></head><body>A JIPipe project</body></html>",
+      "summary" : "<html><head></head><body></body></html>",
+      "authors" : [ ],
+      "acknowledgements" : [ ],
+      "website" : "",
+      "license" : "",
+      "citation" : "",
+      "dependency-citations" : [ ],
+      "categories" : [ ]
+    },
+    "id" : "org.hkijena.jipipe:imagej-integration",
+    "version" : "5.3.0",
+    "provides" : [ ],
+    "ij:update-site-dependencies" : [ ],
+    "dependencies" : [ ],
+    "ij:update-site-providers" : [ ]
+  }, {
+    "metadata" : {
+      "name" : "ImageJ algorithms",
+      "description" : "<html><head></head><body>A JIPipe project</body></html>",
+      "summary" : "<html><head></head><body></body></html>",
+      "authors" : [ ],
+      "acknowledgements" : [ ],
+      "website" : "",
+      "license" : "",
+      "citation" : "",
+      "dependency-citations" : [ ],
+      "categories" : [ ]
+    },
+    "id" : "org.hkijena.jipipe:imagej-algorithms",
+    "version" : "5.3.0",
+    "provides" : [ ],
+    "ij:update-site-dependencies" : [ ],
+    "dependencies" : [ ],
+    "ij:update-site-providers" : [ ]
+  }, {
+    "metadata" : {
+      "name" : "Filesystem types and algorithms",
+      "description" : "<html><head></head><body>A JIPipe project</body></html>",
+      "summary" : "<html><head></head><body></body></html>",
+      "authors" : [ ],
+      "acknowledgements" : [ ],
+      "website" : "",
+      "license" : "",
+      "citation" : "",
+      "dependency-citations" : [ ],
+      "categories" : [ ]
+    },
+    "id" : "org.hkijena.jipipe:filesystem",
+    "version" : "5.3.0",
+    "provides" : [ ],
+    "ij:update-site-dependencies" : [ ],
+    "dependencies" : [ ],
+    "ij:update-site-providers" : [ ]
+  }, {
+    "metadata" : {
+      "name" : "Cellpose integration",
+      "description" : "<html><head></head><body>Integrates Cellpose</body></html>",
+      "summary" : "<html><head></head><body>Integrates Cellpose</body></html>",
+      "authors" : [ {
+        "title" : null,
+        "first-name" : "Zoltán",
+        "last-name" : "Cseresnyés",
+        "affiliations-list" : [ "Applied Systems Biology, Leibniz Institute for Natural Product Research and Infection Biology – Hans-Knöll-Institute, Jena, Germany" ],
+        "website" : "https://www.leibniz-hki.de/en/staff-details.html?member=144",
+        "contact" : "zoltan.cseresnyes@leibniz-hki.de",
+        "first-author" : true,
+        "corresponding-author" : false,
+        "orcid" : "https://orcid.org/0000-0002-6574-2588",
+        "custom-text" : "<html><head></head><body></body></html>"
+      }, {
+        "title" : null,
+        "first-name" : "Ruman",
+        "last-name" : "Gerst",
+        "affiliations-list" : [ "Applied Systems Biology, Leibniz Institute for Natural Product Research and Infection Biology – Hans-Knöll-Institute, Jena, Germany", "Faculty of Biological Sciences, Friedrich Schiller University Jena, Germany" ],
+        "website" : "https://www.leibniz-hki.de/en/staff-details.html?member=1027",
+        "contact" : "ruman.gerst@leibniz-hki.de",
+        "first-author" : true,
+        "corresponding-author" : false,
+        "orcid" : "https://orcid.org/0000-0002-0723-6038",
+        "custom-text" : "<html><head></head><body></body></html>"
+      }, {
+        "title" : null,
+        "first-name" : "Marc Thilo",
+        "last-name" : "Figge",
+        "affiliations-list" : [ "Applied Systems Biology, Leibniz Institute for Natural Product Research and Infection Biology – Hans-Knöll-Institute, Jena, Germany", "Institute of Microbiology, Faculty of Biological Sciences, Friedrich Schiller University Jena, Germany" ],
+        "website" : "https://www.leibniz-hki.de/en/staff-details.html?member=81",
+        "contact" : "thilo.figge@leibniz-hki.de",
+        "first-author" : false,
+        "corresponding-author" : true,
+        "orcid" : "https://orcid.org/0000-0002-4044-9166",
+        "custom-text" : "<html><head></head><body></body></html>"
+      } ],
+      "acknowledgements" : [ {
+        "title" : null,
+        "first-name" : "Carsen",
+        "last-name" : "Stringer",
+        "affiliations-list" : [ "HHMI Janelia Research Campus, Ashburn, VA, USA" ],
+        "website" : "",
+        "contact" : "",
+        "first-author" : true,
+        "corresponding-author" : false,
+        "orcid" : "",
+        "custom-text" : "<html><head></head><body></body></html>"
+      }, {
+        "title" : null,
+        "first-name" : "Tim",
+        "last-name" : "Wang",
+        "affiliations-list" : [ "HHMI Janelia Research Campus, Ashburn, VA, USA" ],
+        "website" : "",
+        "contact" : "",
+        "first-author" : false,
+        "corresponding-author" : false,
+        "orcid" : "",
+        "custom-text" : "<html><head></head><body></body></html>"
+      }, {
+        "title" : null,
+        "first-name" : "Michalis",
+        "last-name" : "Michaelos",
+        "affiliations-list" : [ "HHMI Janelia Research Campus, Ashburn, VA, USA" ],
+        "website" : "",
+        "contact" : "",
+        "first-author" : false,
+        "corresponding-author" : false,
+        "orcid" : "",
+        "custom-text" : "<html><head></head><body></body></html>"
+      }, {
+        "title" : null,
+        "first-name" : "Marius",
+        "last-name" : "Pachitariu",
+        "affiliations-list" : [ "HHMI Janelia Research Campus, Ashburn, VA, USA" ],
+        "website" : "",
+        "contact" : "",
+        "first-author" : false,
+        "corresponding-author" : true,
+        "orcid" : "",
+        "custom-text" : "<html><head></head><body></body></html>"
+      } ],
+      "website" : "https://www.jipipe.org/",
+      "license" : "MIT",
+      "citation" : "Gerst, R., Cseresnyés, Z. & Figge, M.T. JIPipe: visual batch processing for ImageJ. Nat Methods (2023). https://doi.org/10.1038/s41592-022-01744-4",
+      "dependency-citations" : [ "Stringer, C., Wang, T., Michaelos, M., & Pachitariu, M. (2021). Cellpose: a generalist algorithm for cellular segmentation. Nature Methods, 18(1), 100-106." ],
+      "categories" : [ "Deep-Learning", "Segmentation", "Machine Learning" ]
+    },
+    "id" : "org.hkijena.jipipe:cellpose",
+    "version" : "5.3.0",
+    "provides" : [ ],
+    "ij:update-site-dependencies" : [ ],
+    "dependencies" : [ ],
+    "ij:update-site-providers" : [ ]
+  }, {
+    "metadata" : {
+      "name" : "Compartment management",
+      "description" : "<html><head></head><body>Data types required for graph compartment management</body></html>",
+      "summary" : "<html><head></head><body>Data types required for graph compartment management</body></html>",
+      "authors" : [ {
+        "title" : null,
+        "first-name" : "Zoltán",
+        "last-name" : "Cseresnyés",
+        "affiliations-list" : [ "Applied Systems Biology, Leibniz Institute for Natural Product Research and Infection Biology – Hans-Knöll-Institute, Jena, Germany" ],
+        "website" : "https://www.leibniz-hki.de/en/staff-details.html?member=144",
+        "contact" : "zoltan.cseresnyes@leibniz-hki.de",
+        "first-author" : true,
+        "corresponding-author" : false,
+        "orcid" : "https://orcid.org/0000-0002-6574-2588",
+        "custom-text" : "<html><head></head><body></body></html>"
+      }, {
+        "title" : null,
+        "first-name" : "Ruman",
+        "last-name" : "Gerst",
+        "affiliations-list" : [ "Applied Systems Biology, Leibniz Institute for Natural Product Research and Infection Biology – Hans-Knöll-Institute, Jena, Germany", "Faculty of Biological Sciences, Friedrich Schiller University Jena, Germany" ],
+        "website" : "https://www.leibniz-hki.de/en/staff-details.html?member=1027",
+        "contact" : "ruman.gerst@leibniz-hki.de",
+        "first-author" : true,
+        "corresponding-author" : false,
+        "orcid" : "https://orcid.org/0000-0002-0723-6038",
+        "custom-text" : "<html><head></head><body></body></html>"
+      }, {
+        "title" : null,
+        "first-name" : "Marc Thilo",
+        "last-name" : "Figge",
+        "affiliations-list" : [ "Applied Systems Biology, Leibniz Institute for Natural Product Research and Infection Biology – Hans-Knöll-Institute, Jena, Germany", "Institute of Microbiology, Faculty of Biological Sciences, Friedrich Schiller University Jena, Germany" ],
+        "website" : "https://www.leibniz-hki.de/en/staff-details.html?member=81",
+        "contact" : "thilo.figge@leibniz-hki.de",
+        "first-author" : false,
+        "corresponding-author" : true,
+        "orcid" : "https://orcid.org/0000-0002-4044-9166",
+        "custom-text" : "<html><head></head><body></body></html>"
+      } ],
+      "acknowledgements" : [ ],
+      "website" : "https://www.jipipe.org/",
+      "license" : "MIT",
+      "citation" : "Gerst, R., Cseresnyés, Z. & Figge, M.T. JIPipe: visual batch processing for ImageJ. Nat Methods (2023). https://doi.org/10.1038/s41592-022-01744-4",
+      "dependency-citations" : [ ],
+      "categories" : [ "Core" ]
+    },
+    "id" : "org.hkijena.jipipe:compartments",
+    "version" : "5.3.0",
+    "provides" : [ ],
+    "ij:update-site-dependencies" : [ ],
+    "dependencies" : [ ],
+    "ij:update-site-providers" : [ ]
+  }, {
+    "metadata" : {
+      "name" : "Annotation data types and algorithms",
+      "description" : "<html><head></head><body>Provides data types and algorithms to modify data annotations</body></html>",
+      "summary" : "<html><head></head><body>Provides data types and algorithms to modify data annotations</body></html>",
+      "authors" : [ {
+        "title" : null,
+        "first-name" : "Zoltán",
+        "last-name" : "Cseresnyés",
+        "affiliations-list" : [ "Applied Systems Biology, Leibniz Institute for Natural Product Research and Infection Biology – Hans-Knöll-Institute, Jena, Germany" ],
+        "website" : "https://www.leibniz-hki.de/en/staff-details.html?member=144",
+        "contact" : "zoltan.cseresnyes@leibniz-hki.de",
+        "first-author" : true,
+        "corresponding-author" : false,
+        "orcid" : "https://orcid.org/0000-0002-6574-2588",
+        "custom-text" : "<html><head></head><body></body></html>"
+      }, {
+        "title" : null,
+        "first-name" : "Ruman",
+        "last-name" : "Gerst",
+        "affiliations-list" : [ "Applied Systems Biology, Leibniz Institute for Natural Product Research and Infection Biology – Hans-Knöll-Institute, Jena, Germany", "Faculty of Biological Sciences, Friedrich Schiller University Jena, Germany" ],
+        "website" : "https://www.leibniz-hki.de/en/staff-details.html?member=1027",
+        "contact" : "ruman.gerst@leibniz-hki.de",
+        "first-author" : true,
+        "corresponding-author" : false,
+        "orcid" : "https://orcid.org/0000-0002-0723-6038",
+        "custom-text" : "<html><head></head><body></body></html>"
+      }, {
+        "title" : null,
+        "first-name" : "Marc Thilo",
+        "last-name" : "Figge",
+        "affiliations-list" : [ "Applied Systems Biology, Leibniz Institute for Natural Product Research and Infection Biology – Hans-Knöll-Institute, Jena, Germany", "Institute of Microbiology, Faculty of Biological Sciences, Friedrich Schiller University Jena, Germany" ],
+        "website" : "https://www.leibniz-hki.de/en/staff-details.html?member=81",
+        "contact" : "thilo.figge@leibniz-hki.de",
+        "first-author" : false,
+        "corresponding-author" : true,
+        "orcid" : "https://orcid.org/0000-0002-4044-9166",
+        "custom-text" : "<html><head></head><body></body></html>"
+      } ],
+      "acknowledgements" : [ ],
+      "website" : "https://www.jipipe.org/",
+      "license" : "MIT",
+      "citation" : "Gerst, R., Cseresnyés, Z. & Figge, M.T. JIPipe: visual batch processing for ImageJ. Nat Methods (2023). https://doi.org/10.1038/s41592-022-01744-4",
+      "dependency-citations" : [ ],
+      "categories" : [ "Annotation" ]
+    },
+    "id" : "org.hkijena.jipipe:annotations",
+    "version" : "5.3.0",
+    "provides" : [ ],
+    "ij:update-site-dependencies" : [ ],
+    "dependencies" : [ ],
+    "ij:update-site-providers" : [ ]
+  }, {
+    "metadata" : {
+      "name" : "CLIJ2 integration",
+      "description" : "<html><head></head><body>Integrates data types and algorithms for GPU computing based on CLIJ2.</body></html>",
+      "summary" : "<html><head></head><body>Integrates data types and algorithms for GPU computing based on CLIJ2.</body></html>",
+      "authors" : [ {
+        "title" : null,
+        "first-name" : "Zoltán",
+        "last-name" : "Cseresnyés",
+        "affiliations-list" : [ "Applied Systems Biology, Leibniz Institute for Natural Product Research and Infection Biology – Hans-Knöll-Institute, Jena, Germany" ],
+        "website" : "https://www.leibniz-hki.de/en/staff-details.html?member=144",
+        "contact" : "zoltan.cseresnyes@leibniz-hki.de",
+        "first-author" : true,
+        "corresponding-author" : false,
+        "orcid" : "https://orcid.org/0000-0002-6574-2588",
+        "custom-text" : "<html><head></head><body></body></html>"
+      }, {
+        "title" : null,
+        "first-name" : "Ruman",
+        "last-name" : "Gerst",
+        "affiliations-list" : [ "Applied Systems Biology, Leibniz Institute for Natural Product Research and Infection Biology – Hans-Knöll-Institute, Jena, Germany", "Faculty of Biological Sciences, Friedrich Schiller University Jena, Germany" ],
+        "website" : "https://www.leibniz-hki.de/en/staff-details.html?member=1027",
+        "contact" : "ruman.gerst@leibniz-hki.de",
+        "first-author" : true,
+        "corresponding-author" : false,
+        "orcid" : "https://orcid.org/0000-0002-0723-6038",
+        "custom-text" : "<html><head></head><body></body></html>"
+      }, {
+        "title" : null,
+        "first-name" : "Marc Thilo",
+        "last-name" : "Figge",
+        "affiliations-list" : [ "Applied Systems Biology, Leibniz Institute for Natural Product Research and Infection Biology – Hans-Knöll-Institute, Jena, Germany", "Institute of Microbiology, Faculty of Biological Sciences, Friedrich Schiller University Jena, Germany" ],
+        "website" : "https://www.leibniz-hki.de/en/staff-details.html?member=81",
+        "contact" : "thilo.figge@leibniz-hki.de",
+        "first-author" : false,
+        "corresponding-author" : true,
+        "orcid" : "https://orcid.org/0000-0002-4044-9166",
+        "custom-text" : "<html><head></head><body></body></html>"
+      } ],
+      "acknowledgements" : [ {
+        "title" : null,
+        "first-name" : "Robert",
+        "last-name" : "Haase",
+        "affiliations-list" : [ "Max Planck Institute for Molecular Cell Biology and Genetics, Dresden, Germany", "Center for Systems Biology Dresden, Dresden, Germany" ],
+        "website" : "",
+        "contact" : "",
+        "first-author" : true,
+        "corresponding-author" : true,
+        "orcid" : "",
+        "custom-text" : "<html><head></head><body></body></html>"
+      }, {
+        "title" : null,
+        "first-name" : "Loic A.",
+        "last-name" : "Royer",
+        "affiliations-list" : [ "Chan Zuckerberg Biohub, San Francisco, CA, USA" ],
+        "website" : "",
+        "contact" : "",
+        "first-author" : true,
+        "corresponding-author" : true,
+        "orcid" : "",
+        "custom-text" : "<html><head></head><body></body></html>"
+      }, {
+        "title" : null,
+        "first-name" : "Peter",
+        "last-name" : "Steinbach",
+        "affiliations-list" : [ "Helmholtz-Zentrum Dresden-Rossendorf, Dresden, Germany", "Max Planck Institute for Molecular Cell Biology and Genetics, Dresden, Germany", "Center for Systems Biology Dresden, Dresden, Germany" ],
+        "website" : "",
+        "contact" : "",
+        "first-author" : false,
+        "corresponding-author" : false,
+        "orcid" : "",
+        "custom-text" : "<html><head></head><body></body></html>"
+      }, {
+        "title" : null,
+        "first-name" : "Deborah",
+        "last-name" : "Schmidt",
+        "affiliations-list" : [ "Max Planck Institute for Molecular Cell Biology and Genetics, Dresden, Germany", "Center for Systems Biology Dresden, Dresden, Germany" ],
+        "website" : "",
+        "contact" : "",
+        "first-author" : false,
+        "corresponding-author" : false,
+        "orcid" : "",
+        "custom-text" : "<html><head></head><body></body></html>"
+      }, {
+        "title" : null,
+        "first-name" : "Alexandr",
+        "last-name" : "Dibrov",
+        "affiliations-list" : [ "Max Planck Institute for Molecular Cell Biology and Genetics, Dresden, Germany", "Center for Systems Biology Dresden, Dresden, Germany" ],
+        "website" : "",
+        "contact" : "",
+        "first-author" : false,
+        "corresponding-author" : false,
+        "orcid" : "",
+        "custom-text" : "<html><head></head><body></body></html>"
+      }, {
+        "title" : null,
+        "first-name" : "Uwe",
+        "last-name" : "Schmidt",
+        "affiliations-list" : [ "Max Planck Institute for Molecular Cell Biology and Genetics, Dresden, Germany", "Center for Systems Biology Dresden, Dresden, Germany" ],
+        "website" : "",
+        "contact" : "",
+        "first-author" : false,
+        "corresponding-author" : false,
+        "orcid" : "",
+        "custom-text" : "<html><head></head><body></body></html>"
+      }, {
+        "title" : null,
+        "first-name" : "Martin",
+        "last-name" : "Weigert",
+        "affiliations-list" : [ "Max Planck Institute for Molecular Cell Biology and Genetics, Dresden, Germany", "Center for Systems Biology Dresden, Dresden, Germany" ],
+        "website" : "",
+        "contact" : "",
+        "first-author" : false,
+        "corresponding-author" : false,
+        "orcid" : "",
+        "custom-text" : "<html><head></head><body></body></html>"
+      }, {
+        "title" : null,
+        "first-name" : "Nicola",
+        "last-name" : "Maghelli",
+        "affiliations-list" : [ "Max Planck Institute for Molecular Cell Biology and Genetics, Dresden, Germany", "Center for Systems Biology Dresden, Dresden, Germany" ],
+        "website" : "",
+        "contact" : "",
+        "first-author" : false,
+        "corresponding-author" : false,
+        "orcid" : "",
+        "custom-text" : "<html><head></head><body></body></html>"
+      }, {
+        "title" : null,
+        "first-name" : "Pavel",
+        "last-name" : "Tomancak",
+        "affiliations-list" : [ "Max Planck Institute for Molecular Cell Biology and Genetics, Dresden, Germany", "Center for Systems Biology Dresden, Dresden, Germany", "IT4Innovations, VŠB - Technical University of Ostrava, Ostrava-Poruba, Czech Republic" ],
+        "website" : "",
+        "contact" : "",
+        "first-author" : false,
+        "corresponding-author" : false,
+        "orcid" : "",
+        "custom-text" : "<html><head></head><body></body></html>"
+      }, {
+        "title" : null,
+        "first-name" : "Florian",
+        "last-name" : "Jug",
+        "affiliations-list" : [ "Max Planck Institute for Molecular Cell Biology and Genetics, Dresden, Germany", "Center for Systems Biology Dresden, Dresden, Germany" ],
+        "website" : "",
+        "contact" : "",
+        "first-author" : false,
+        "corresponding-author" : false,
+        "orcid" : "",
+        "custom-text" : "<html><head></head><body></body></html>"
+      }, {
+        "title" : null,
+        "first-name" : "Eugene W.",
+        "last-name" : "Myers",
+        "affiliations-list" : [ "Max Planck Institute for Molecular Cell Biology and Genetics, Dresden, Germany", "Center for Systems Biology Dresden, Dresden, Germany" ],
+        "website" : "",
+        "contact" : "",
+        "first-author" : false,
+        "corresponding-author" : false,
+        "orcid" : "",
+        "custom-text" : "<html><head></head><body></body></html>"
+      } ],
+      "website" : "https://www.jipipe.org/",
+      "license" : "MIT",
+      "citation" : "Gerst, R., Cseresnyés, Z. & Figge, M.T. JIPipe: visual batch processing for ImageJ. Nat Methods (2023). https://doi.org/10.1038/s41592-022-01744-4",
+      "dependency-citations" : [ "Robert Haase, Loic Alain Royer, Peter Steinbach, Deborah Schmidt, Alexandr Dibrov, Uwe Schmidt, Martin Weigert, Nicola Maghelli, Pavel Tomancak, Florian Jug, Eugene W Myers. CLIJ: GPU-accelerated image processing for everyone. Nat Methods 17, 5-6 (2020)" ],
+      "categories" : [ "3D", "Image analysis", "Analysis", "GPU" ]
+    },
+    "id" : "org.hkijena.jipipe:clij2-integration",
+    "version" : "5.3.0",
+    "provides" : [ ],
+    "ij:update-site-dependencies" : [ ],
+    "dependencies" : [ ],
+    "ij:update-site-providers" : [ ]
+  }, {
+    "metadata" : {
+      "name" : "Multi parameter algorithms",
+      "description" : "<html><head></head><body>A JIPipe project</body></html>",
+      "summary" : "<html><head></head><body></body></html>",
+      "authors" : [ ],
+      "acknowledgements" : [ ],
+      "website" : "",
+      "license" : "",
+      "citation" : "",
+      "dependency-citations" : [ ],
+      "categories" : [ ]
+    },
+    "id" : "org.hkijena.jipipe:multi-parameters-algorithms",
+    "version" : "5.3.0",
+    "provides" : [ ],
+    "ij:update-site-dependencies" : [ ],
+    "dependencies" : [ ],
+    "ij:update-site-providers" : [ ]
+  } ],
+  "runtime-partitions" : {
+    "default" : {
+      "name" : "Default",
+      "description" : "<html><head></head><body></body></html>",
+      "color" : {
+        "content" : "#FF0000",
+        "enabled" : false
+      },
+      "enable-parallelization" : false,
+      "force-pass-through-loop-iteration-in-caching" : false,
+      "loop-iteration-iterating-settings" : {
+        "column-matching" : "PrefixHashUnion",
+        "skip-incomplete" : false,
+        "custom-matched-columns-expression" : {
+          "expression" : ""
+        },
+        "annotation-merge-strategy" : "Merge",
+        "data-annotation-merge-strategy" : "MergeTables",
+        "limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        },
+        "annotation-matching-method" : "ExactMatch",
+        "custom-annotation-matching" : {
+          "expression" : "exact_match_results"
+        },
+        "force-flow-graph-solver" : false
+      },
+      "loop-iteration-merging-settings" : {
+        "column-matching" : "PrefixHashUnion",
+        "skip-incomplete" : false,
+        "custom-matched-columns-expression" : {
+          "expression" : ""
+        },
+        "annotation-merge-strategy" : "Merge",
+        "limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        },
+        "annotation-matching-method" : "ExactMatch",
+        "custom-annotation-matching" : {
+          "expression" : "exact_match_results"
+        },
+        "data-annotation-merge-strategy" : "MergeTables",
+        "force-flow-graph-solver" : false,
+        "force-na-is-any" : false
+      },
+      "output-settings" : {
+        "export-lightweight-data" : true,
+        "export-heavy-data" : true,
+        "export-loop-intermediate-results" : false,
+        "export-loop-terminating" : true,
+        "always-export-compartment-outputs" : true
+      },
+      "continue-on-failure-settings" : {
+        "continue-on-failure" : false,
+        "export-failed-loop-inputs" : true,
+        "export-failed-partition-inputs" : false,
+        "disable-on-update-cache" : false
+      },
+      "iteration-mode" : "PassThrough"
+    },
+    "extra" : [ {
+      "name" : "Filesystem",
+      "description" : "<html><head></head><body>Pre-defined partition useful for separating off filesystem operations</body></html>",
+      "color" : {
+        "content" : "#93C6A2",
+        "enabled" : true
+      },
+      "enable-parallelization" : false,
+      "force-pass-through-loop-iteration-in-caching" : false,
+      "loop-iteration-iterating-settings" : {
+        "column-matching" : "PrefixHashUnion",
+        "skip-incomplete" : false,
+        "custom-matched-columns-expression" : {
+          "expression" : ""
+        },
+        "annotation-merge-strategy" : "Merge",
+        "data-annotation-merge-strategy" : "MergeTables",
+        "limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        },
+        "annotation-matching-method" : "ExactMatch",
+        "custom-annotation-matching" : {
+          "expression" : "exact_match_results"
+        },
+        "force-flow-graph-solver" : false
+      },
+      "loop-iteration-merging-settings" : {
+        "column-matching" : "PrefixHashUnion",
+        "skip-incomplete" : false,
+        "custom-matched-columns-expression" : {
+          "expression" : ""
+        },
+        "annotation-merge-strategy" : "Merge",
+        "limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        },
+        "annotation-matching-method" : "ExactMatch",
+        "custom-annotation-matching" : {
+          "expression" : "exact_match_results"
+        },
+        "data-annotation-merge-strategy" : "MergeTables",
+        "force-flow-graph-solver" : false,
+        "force-na-is-any" : false
+      },
+      "output-settings" : {
+        "export-lightweight-data" : true,
+        "export-heavy-data" : true,
+        "export-loop-intermediate-results" : false,
+        "export-loop-terminating" : true,
+        "always-export-compartment-outputs" : true
+      },
+      "continue-on-failure-settings" : {
+        "continue-on-failure" : false,
+        "export-failed-loop-inputs" : true,
+        "export-failed-partition-inputs" : false,
+        "disable-on-update-cache" : false
+      },
+      "iteration-mode" : "PassThrough"
+    }, {
+      "name" : "Statistics",
+      "description" : "<html><head></head><body>Pre-defined partition useful for separating off statistics and postprocessing operations</body></html>",
+      "color" : {
+        "content" : "#BD93C4",
+        "enabled" : true
+      },
+      "enable-parallelization" : false,
+      "force-pass-through-loop-iteration-in-caching" : false,
+      "loop-iteration-iterating-settings" : {
+        "column-matching" : "PrefixHashUnion",
+        "skip-incomplete" : false,
+        "custom-matched-columns-expression" : {
+          "expression" : ""
+        },
+        "annotation-merge-strategy" : "Merge",
+        "data-annotation-merge-strategy" : "MergeTables",
+        "limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        },
+        "annotation-matching-method" : "ExactMatch",
+        "custom-annotation-matching" : {
+          "expression" : "exact_match_results"
+        },
+        "force-flow-graph-solver" : false
+      },
+      "loop-iteration-merging-settings" : {
+        "column-matching" : "PrefixHashUnion",
+        "skip-incomplete" : false,
+        "custom-matched-columns-expression" : {
+          "expression" : ""
+        },
+        "annotation-merge-strategy" : "Merge",
+        "limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        },
+        "annotation-matching-method" : "ExactMatch",
+        "custom-annotation-matching" : {
+          "expression" : "exact_match_results"
+        },
+        "data-annotation-merge-strategy" : "MergeTables",
+        "force-flow-graph-solver" : false,
+        "force-na-is-any" : false
+      },
+      "output-settings" : {
+        "export-lightweight-data" : true,
+        "export-heavy-data" : true,
+        "export-loop-intermediate-results" : false,
+        "export-loop-terminating" : true,
+        "always-export-compartment-outputs" : true
+      },
+      "continue-on-failure-settings" : {
+        "continue-on-failure" : false,
+        "export-failed-loop-inputs" : true,
+        "export-failed-partition-inputs" : false,
+        "disable-on-update-cache" : false
+      },
+      "iteration-mode" : "PassThrough"
+    }, {
+      "name" : "Visualization",
+      "description" : "<html><head></head><body>Pre-defined partition useful for separating off visualization and postprocessing operations</body></html>",
+      "color" : {
+        "content" : "#93BDC4",
+        "enabled" : true
+      },
+      "enable-parallelization" : false,
+      "force-pass-through-loop-iteration-in-caching" : false,
+      "loop-iteration-iterating-settings" : {
+        "column-matching" : "PrefixHashUnion",
+        "skip-incomplete" : false,
+        "custom-matched-columns-expression" : {
+          "expression" : ""
+        },
+        "annotation-merge-strategy" : "Merge",
+        "data-annotation-merge-strategy" : "MergeTables",
+        "limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        },
+        "annotation-matching-method" : "ExactMatch",
+        "custom-annotation-matching" : {
+          "expression" : "exact_match_results"
+        },
+        "force-flow-graph-solver" : false
+      },
+      "loop-iteration-merging-settings" : {
+        "column-matching" : "PrefixHashUnion",
+        "skip-incomplete" : false,
+        "custom-matched-columns-expression" : {
+          "expression" : ""
+        },
+        "annotation-merge-strategy" : "Merge",
+        "limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        },
+        "annotation-matching-method" : "ExactMatch",
+        "custom-annotation-matching" : {
+          "expression" : "exact_match_results"
+        },
+        "data-annotation-merge-strategy" : "MergeTables",
+        "force-flow-graph-solver" : false,
+        "force-na-is-any" : false
+      },
+      "output-settings" : {
+        "export-lightweight-data" : true,
+        "export-heavy-data" : true,
+        "export-loop-intermediate-results" : false,
+        "export-loop-terminating" : true,
+        "always-export-compartment-outputs" : true
+      },
+      "continue-on-failure-settings" : {
+        "continue-on-failure" : false,
+        "export-failed-loop-inputs" : true,
+        "export-failed-partition-inputs" : false,
+        "disable-on-update-cache" : false
+      },
+      "iteration-mode" : "PassThrough"
+    }, {
+      "name" : "Postprocessing",
+      "description" : "<html><head></head><body>Pre-defined partition useful for separating off postprocessing operations</body></html>",
+      "color" : {
+        "content" : "#C4B693",
+        "enabled" : true
+      },
+      "enable-parallelization" : false,
+      "force-pass-through-loop-iteration-in-caching" : false,
+      "loop-iteration-iterating-settings" : {
+        "column-matching" : "PrefixHashUnion",
+        "skip-incomplete" : false,
+        "custom-matched-columns-expression" : {
+          "expression" : ""
+        },
+        "annotation-merge-strategy" : "Merge",
+        "data-annotation-merge-strategy" : "MergeTables",
+        "limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        },
+        "annotation-matching-method" : "ExactMatch",
+        "custom-annotation-matching" : {
+          "expression" : "exact_match_results"
+        },
+        "force-flow-graph-solver" : false
+      },
+      "loop-iteration-merging-settings" : {
+        "column-matching" : "PrefixHashUnion",
+        "skip-incomplete" : false,
+        "custom-matched-columns-expression" : {
+          "expression" : ""
+        },
+        "annotation-merge-strategy" : "Merge",
+        "limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        },
+        "annotation-matching-method" : "ExactMatch",
+        "custom-annotation-matching" : {
+          "expression" : "exact_match_results"
+        },
+        "data-annotation-merge-strategy" : "MergeTables",
+        "force-flow-graph-solver" : false,
+        "force-na-is-any" : false
+      },
+      "output-settings" : {
+        "export-lightweight-data" : true,
+        "export-heavy-data" : true,
+        "export-loop-intermediate-results" : false,
+        "export-loop-terminating" : true,
+        "always-export-compartment-outputs" : true
+      },
+      "continue-on-failure-settings" : {
+        "continue-on-failure" : false,
+        "export-failed-loop-inputs" : true,
+        "export-failed-partition-inputs" : false,
+        "disable-on-update-cache" : false
+      },
+      "iteration-mode" : "PassThrough"
+    } ]
+  },
+  "run-sets" : {
+    "run-sets" : [ ]
+  },
+  "settings" : {
+    "org.hkijena.jipipe:ilastik" : {
+      "project-default-environment" : {
+        "content" : {
+          "name" : "",
+          "version" : "unknown",
+          "source" : "NA",
+          "load-from-artifact" : true,
+          "artifact-query" : {
+            "query" : "org.embl.ilastik:1.4.0-windows_gpu_cu113_amd64"
+          },
+          "arguments" : {
+            "expression" : "cli_parameters"
+          },
+          "executable-path" : ""
+        },
+        "enabled" : true
+      }
+    },
+    "org.hkijena.jipipe:cellpose" : {
+      "project-default-environment" : {
+        "content" : {
+          "name" : "",
+          "version" : "unknown",
+          "source" : "NA",
+          "load-from-artifact" : true,
+          "artifact-query" : {
+            "query" : "com.github.mouseland.cellpose:2.1.0.1000-windows_gpu_cu121_amd64"
+          },
+          "environment-type" : "System",
+          "arguments" : {
+            "expression" : "ARRAY(\"-u\", script_file)"
+          },
+          "executable-path" : "C:/Users/imaris/AppData/Roaming/JIPipe/artifacts/com/github/mouseland/cellpose/2.1.0.1000-windows_gpu_cu121_amd64/python/python.exe"
+        },
+        "enabled" : true
+      },
+      "project-cellpose3-environment" : {
+        "content" : {
+          "name" : "",
+          "version" : "unknown",
+          "source" : "NA",
+          "load-from-artifact" : true,
+          "artifact-query" : {
+            "query" : "com.github.mouseland.cellpose3:3.1.1.1.1001-win64_gpu_cu124_amd64"
+          },
+          "environment-type" : "System",
+          "arguments" : {
+            "expression" : "ARRAY(\"-u\", script_file)"
+          },
+          "executable-path" : "C:/Users/imaris/AppData/Roaming/JIPipe/artifacts/com/github/mouseland/cellpose3/3.1.1.1.1001-win64_gpu_cu124_amd64/python/python.exe"
+        },
+        "enabled" : true
+      }
+    },
+    "org.hkijena.jipipe:r" : {
+      "project-default-environment" : {
+        "content" : {
+          "name" : "",
+          "version" : "unknown",
+          "source" : "NA",
+          "load-from-artifact" : true,
+          "artifact-query" : {
+            "query" : "org.r.r_prepackaged:4.4.0.1002-windows_amd64"
+          },
+          "arguments" : {
+            "expression" : "ARRAY(script_file)"
+          },
+          "rscript-executable-path" : "",
+          "r-executable-path" : ""
+        },
+        "enabled" : true
+      }
+    },
+    "org.hkijena.jipipe:omero" : {
+      "project-default-environment" : {
+        "content" : {
+          "name" : "",
+          "version" : "unknown",
+          "source" : "NA",
+          "host" : "",
+          "port" : 4064,
+          "user-name" : "",
+          "password" : "",
+          "e-mail" : "anonymous@anonymous",
+          "webclient-url" : ""
+        },
+        "enabled" : false
+      }
+    },
+    "org.hkijena.jipipe:omnipose" : {
+      "project-default-environment" : {
+        "content" : {
+          "name" : "",
+          "version" : "unknown",
+          "source" : "NA",
+          "load-from-artifact" : true,
+          "artifact-query" : {
+            "query" : "com.github.kevinjohncutler.omnipose:0.2.1.1000-windows_gpu_cu121_amd64"
+          },
+          "environment-type" : "System",
+          "arguments" : {
+            "expression" : "ARRAY(script_file)"
+          },
+          "executable-path" : ""
+        },
+        "enabled" : true
+      }
+    },
+    "org.hkijena.jipipe:filaments" : {
+      "project-default-environment" : {
+        "content" : {
+          "name" : "",
+          "version" : "unknown",
+          "source" : "NA",
+          "load-from-artifact" : true,
+          "artifact-query" : {
+            "query" : "com.github.tix209.tsoax:0.2.0-windows_amd64"
+          },
+          "arguments" : {
+            "expression" : "cli_parameters"
+          },
+          "executable-path" : ""
+        },
+        "enabled" : true
+      }
+    },
+    "org.hkijena.jipipe:ij-ocr" : {
+      "project-default-environment" : {
+        "content" : {
+          "name" : "",
+          "version" : "unknown",
+          "source" : "NA",
+          "load-from-artifact" : true,
+          "artifact-query" : {
+            "query" : "com.github.tesseractocr.tesseract:5.5.0.1000-windows_amd64"
+          },
+          "arguments" : {
+            "expression" : "cli_parameters"
+          },
+          "executable-path" : ""
+        },
+        "enabled" : true
+      }
+    },
+    "org.hkijena.jipipe:samples-images" : {
+      "project-default-environment" : {
+        "content" : {
+          "name" : "",
+          "version" : "unknown",
+          "source" : "NA",
+          "load-from-artifact" : true,
+          "artifact-query" : {
+            "query" : "sc.fiji.sample_images:1.0.0.1000-any"
+          },
+          "directory" : ""
+        },
+        "enabled" : true
+      }
+    },
+    "org.hkijena.jipipe:python" : {
+      "project-default-environment" : {
+        "content" : {
+          "name" : "",
+          "version" : "unknown",
+          "source" : "NA",
+          "load-from-artifact" : true,
+          "artifact-query" : {
+            "query" : "org.python.python_prepackaged:3.10.15.1000-windows_amd64"
+          },
+          "environment-type" : "System",
+          "arguments" : {
+            "expression" : "ARRAY(script_file)"
+          },
+          "executable-path" : ""
+        },
+        "enabled" : true
+      },
+      "project-default-jipipe-adapter-environment" : {
+        "content" : {
+          "name" : "",
+          "version" : "unknown",
+          "source" : "NA",
+          "load-from-artifact" : true,
+          "artifact-query" : {
+            "query" : "org.hkijena.jipipe-python-adapter:0.3.0-any"
+          },
+          "library-directory" : "jipipe/lib-jipipe-python",
+          "provided-by-environment" : false
+        },
+        "enabled" : true
+      }
+    },
+    "org.hkijena.jipipe:data-storage" : {
+      "force-global-temp-directory" : false,
+      "override-temp-directory" : {
+        "content" : "",
+        "enabled" : false
+      }
+    }
+  },
+  "external-environments" : [ {
+    "name" : "",
+    "version" : "unknown",
+    "source" : "NA",
+    "load-from-artifact" : true,
+    "artifact-query" : {
+      "query" : "com.github.mouseland.cellpose:2.1.0.1000-windows_gpu_cu121_amd64"
+    },
+    "environment-type" : "System",
+    "arguments" : {
+      "expression" : "ARRAY(\"-u\", script_file)"
+    },
+    "executable-path" : "C:/Users/imaris/AppData/Roaming/JIPipe/artifacts/com/github/mouseland/cellpose/2.1.0.1000-windows_gpu_cu121_amd64/python/python.exe"
+  } ],
+  "additional-metadata" : {
+    "org.hkijena.jipipe:pipeline-parameters" : {
+      "jipipe:type" : "jipipe:project-info-parameters",
+      "exported-parameters" : {
+        "parameter-reference-groups" : [ ]
+      }
+    },
+    "org.hkijena.jipipe.ui:project-tabs" : {
+      "jipipe:type" : "jipipe:desktop:project-tabs",
+      "data" : {
+        "open-tabs" : [ "singleton:PROJECT_OVERVIEW", "singleton:COMPARTMENT_EDITOR", "graph-compartment:c6d89a0b-c113-48d2-a537-5058c65d19c5", "graph-compartment:fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851" ],
+        "selected-tab" : "graph-compartment:fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851"
+      }
+    }
+  },
+  "graph" : {
+    "nodes" : {
+      "e67e4303-bf99-4447-9b8a-2b64b2d8dd66" : {
+        "jipipe:graph-compartment" : "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851",
+        "jipipe:alias-id" : "output",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Data Label" : {
+              "slot-data-type" : "imagej-imgplus-greyscale",
+              "slot-type" : "Input",
+              "name" : "Data Label",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            },
+            "Data ROI" : {
+              "slot-data-type" : "imagej-roi",
+              "slot-type" : "Input",
+              "name" : "Data ROI",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            },
+            "Data RGB" : {
+              "slot-data-type" : "imagej-imgplus",
+              "slot-type" : "Input",
+              "name" : "Data RGB",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "Data Label" : {
+              "slot-data-type" : "imagej-imgplus-greyscale",
+              "slot-type" : "Output",
+              "name" : "Data Label",
+              "custom-name" : null,
+              "description" : null,
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            },
+            "Data ROI" : {
+              "slot-data-type" : "imagej-roi",
+              "slot-type" : "Output",
+              "name" : "Data ROI",
+              "custom-name" : null,
+              "description" : null,
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            },
+            "Data RGB" : {
+              "slot-data-type" : "imagej-imgplus",
+              "slot-type" : "Output",
+              "name" : "Data RGB",
+              "custom-name" : null,
+              "description" : null,
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851" : {
+            "VerticalCompact" : {
+              "x" : 31,
+              "y" : 28
+            }
+          }
+        },
+        "jipipe:node-info-id" : "jipipe:compartment-output",
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "project-overview-color" : {
+          "content" : "#FFFFFF",
+          "enabled" : false
+        },
+        "show-in-project-overview" : true,
+        "jipipe:compartment:output-slot-name" : "Output",
+        "jipipe:node:bookmarked" : false,
+        "jipipe:algorithm:pass-through" : false,
+        "jipipe:node:name" : "Output",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        }
+      },
+      "6899fa8d-3623-400f-a2eb-5a08caa3bf7e" : {
+        "jipipe:graph-compartment" : "c6d89a0b-c113-48d2-a537-5058c65d19c5",
+        "jipipe:alias-id" : "output-1",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Data" : {
+              "slot-data-type" : "imagej-imgplus",
+              "slot-type" : "Input",
+              "name" : "Data",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "Data" : {
+              "slot-data-type" : "imagej-imgplus",
+              "slot-type" : "Output",
+              "name" : "Data",
+              "custom-name" : null,
+              "description" : null,
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851" : {
+            "VerticalCompact" : {
+              "x" : 36,
+              "y" : 2
+            }
+          },
+          "c6d89a0b-c113-48d2-a537-5058c65d19c5" : {
+            "VerticalCompact" : {
+              "x" : 6,
+              "y" : 60
+            }
+          }
+        },
+        "jipipe:node-info-id" : "jipipe:compartment-output",
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "project-overview-color" : {
+          "content" : "#FFFFFF",
+          "enabled" : false
+        },
+        "show-in-project-overview" : true,
+        "jipipe:compartment:output-slot-name" : "Output",
+        "jipipe:node:bookmarked" : false,
+        "jipipe:algorithm:pass-through" : false,
+        "jipipe:node:name" : "Output",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        }
+      },
+      "1fdcacd3-b984-4ab8-9ecc-62fa37b86734" : {
+        "jipipe:graph-compartment" : "c6d89a0b-c113-48d2-a537-5058c65d19c5",
+        "jipipe:alias-id" : "annotate-with-path-properties",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Input" : {
+              "slot-data-type" : "path",
+              "slot-type" : "Input",
+              "name" : "Input",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "Output" : {
+              "slot-data-type" : "path",
+              "slot-type" : "Output",
+              "name" : "Output",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "" : {
+            "VerticalCompact" : {
+              "x" : 21,
+              "y" : 17
+            }
+          },
+          "c6d89a0b-c113-48d2-a537-5058c65d19c5" : {
+            "VerticalCompact" : {
+              "x" : 3,
+              "y" : 21
+            }
+          }
+        },
+        "jipipe:node-info-id" : "annotate-with-path-properties",
+        "last-modified-time-annotation" : {
+          "content" : "Last modified",
+          "enabled" : false
+        },
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "file-name-annotation" : {
+          "content" : "Time",
+          "enabled" : true
+        },
+        "size-annotation" : {
+          "content" : "Size",
+          "enabled" : false
+        },
+        "jipipe:node:bookmarked" : false,
+        "jipipe:algorithm:pass-through" : false,
+        "type-annotation" : {
+          "content" : "Type",
+          "enabled" : false
+        },
+        "jipipe:node:name" : "Annotate with path properties",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "parent-path-annotation" : {
+          "content" : "Parent",
+          "enabled" : false
+        },
+        "jipipe:local-parallelization-num-threads" : {
+          "content" : 1,
+          "enabled" : false
+        },
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "jipipe:adaptive-parameters/attach-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/parameter-annotations-prefix" : "",
+        "jipipe:adaptive-parameters/enabled" : true,
+        "jipipe:adaptive-parameters/overridden-parameters" : [ ],
+        "jipipe:adaptive-parameters/parameter-annotations-use-internal-names" : false,
+        "jipipe:parameter-slot-algorithm/has-parameter-slot" : false,
+        "jipipe:parameter-slot-algorithm/attach-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/parameter-annotations-prefix" : "",
+        "jipipe:parameter-slot-algorithm/parameter-annotations-use-internal-names" : false,
+        "jipipe:data-batch-generation/limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        }
+      },
+      "277cd701-d346-4a37-8238-970a95817fcd" : {
+        "jipipe:graph-compartment" : "c6d89a0b-c113-48d2-a537-5058c65d19c5",
+        "jipipe:alias-id" : "folder-list",
+        "jipipe:slot-configuration" : {
+          "input" : { },
+          "output" : {
+            "Folder paths" : {
+              "slot-data-type" : "folder",
+              "slot-type" : "Output",
+              "name" : "Folder paths",
+              "custom-name" : "Dataset",
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "" : {
+            "VerticalCompact" : {
+              "x" : 23,
+              "y" : 7
+            }
+          },
+          "c6d89a0b-c113-48d2-a537-5058c65d19c5" : {
+            "VerticalCompact" : {
+              "x" : 5,
+              "y" : 1
+            }
+          }
+        },
+        "jipipe:node-info-id" : "import-folder-list",
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "folder-paths" : [ "H:/Rasha/LAMP-1/Dataset" ],
+        "jipipe:node:bookmarked" : false,
+        "jipipe:algorithm:pass-through" : false,
+        "jipipe:node:name" : "Folder list",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        }
+      },
+      "c89eca62-45bb-4324-be6e-2c781bb8a48a" : {
+        "jipipe:graph-compartment" : "c6d89a0b-c113-48d2-a537-5058c65d19c5",
+        "jipipe:alias-id" : "list-subfolders",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Folders" : {
+              "slot-data-type" : "folder",
+              "slot-type" : "Input",
+              "name" : "Folders",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "Subfolders" : {
+              "slot-data-type" : "folder",
+              "slot-type" : "Output",
+              "name" : "Subfolders",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "" : {
+            "VerticalCompact" : {
+              "x" : 23,
+              "y" : 12
+            }
+          },
+          "c6d89a0b-c113-48d2-a537-5058c65d19c5" : {
+            "VerticalCompact" : {
+              "x" : 5,
+              "y" : 6
+            }
+          }
+        },
+        "jipipe:node-info-id" : "folder-list-subfolders",
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "subfolder" : null,
+        "recursive-follows-links" : true,
+        "jipipe:node:bookmarked" : false,
+        "filters" : {
+          "expression" : ""
+        },
+        "jipipe:algorithm:pass-through" : false,
+        "recursive" : false,
+        "jipipe:node:name" : "List subfolders",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "jipipe:local-parallelization-num-threads" : {
+          "content" : 1,
+          "enabled" : false
+        },
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "jipipe:adaptive-parameters/attach-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/parameter-annotations-prefix" : "",
+        "jipipe:adaptive-parameters/enabled" : true,
+        "jipipe:adaptive-parameters/overridden-parameters" : [ ],
+        "jipipe:adaptive-parameters/parameter-annotations-use-internal-names" : false,
+        "jipipe:parameter-slot-algorithm/has-parameter-slot" : false,
+        "jipipe:parameter-slot-algorithm/attach-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/parameter-annotations-prefix" : "",
+        "jipipe:parameter-slot-algorithm/parameter-annotations-use-internal-names" : false,
+        "jipipe:data-batch-generation/limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        }
+      },
+      "afeca549-aa70-4514-acd4-5d650b9e73b8" : {
+        "jipipe:graph-compartment" : "c6d89a0b-c113-48d2-a537-5058c65d19c5",
+        "jipipe:alias-id" : "list-subfolders-1",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Folders" : {
+              "slot-data-type" : "folder",
+              "slot-type" : "Input",
+              "name" : "Folders",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "Subfolders" : {
+              "slot-data-type" : "folder",
+              "slot-type" : "Output",
+              "name" : "Subfolders",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "" : {
+            "VerticalCompact" : {
+              "x" : 26,
+              "y" : 8
+            }
+          },
+          "c6d89a0b-c113-48d2-a537-5058c65d19c5" : {
+            "VerticalCompact" : {
+              "x" : 5,
+              "y" : 25
+            }
+          }
+        },
+        "jipipe:node-info-id" : "folder-list-subfolders",
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "subfolder" : null,
+        "recursive-follows-links" : true,
+        "jipipe:node:bookmarked" : false,
+        "filters" : {
+          "expression" : ""
+        },
+        "jipipe:algorithm:pass-through" : false,
+        "recursive" : false,
+        "jipipe:node:name" : "List subfolders",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "jipipe:local-parallelization-num-threads" : {
+          "content" : 1,
+          "enabled" : false
+        },
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "jipipe:adaptive-parameters/attach-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/parameter-annotations-prefix" : "",
+        "jipipe:adaptive-parameters/enabled" : true,
+        "jipipe:adaptive-parameters/overridden-parameters" : [ ],
+        "jipipe:adaptive-parameters/parameter-annotations-use-internal-names" : false,
+        "jipipe:parameter-slot-algorithm/has-parameter-slot" : false,
+        "jipipe:parameter-slot-algorithm/attach-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/parameter-annotations-prefix" : "",
+        "jipipe:parameter-slot-algorithm/parameter-annotations-use-internal-names" : false,
+        "jipipe:data-batch-generation/limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        }
+      },
+      "dfa333de-9bcf-417f-b82a-81dba9061747" : {
+        "jipipe:graph-compartment" : "c6d89a0b-c113-48d2-a537-5058c65d19c5",
+        "jipipe:alias-id" : "annotate-with-path-properties-1",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Input" : {
+              "slot-data-type" : "path",
+              "slot-type" : "Input",
+              "name" : "Input",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "Output" : {
+              "slot-data-type" : "path",
+              "slot-type" : "Output",
+              "name" : "Output",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "" : {
+            "VerticalCompact" : {
+              "x" : 26,
+              "y" : 13
+            }
+          },
+          "c6d89a0b-c113-48d2-a537-5058c65d19c5" : {
+            "VerticalCompact" : {
+              "x" : 4,
+              "y" : 29
+            }
+          }
+        },
+        "jipipe:node-info-id" : "annotate-with-path-properties",
+        "last-modified-time-annotation" : {
+          "content" : "Last modified",
+          "enabled" : false
+        },
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "file-name-annotation" : {
+          "content" : "Infection",
+          "enabled" : true
+        },
+        "size-annotation" : {
+          "content" : "Size",
+          "enabled" : false
+        },
+        "jipipe:node:bookmarked" : false,
+        "jipipe:algorithm:pass-through" : false,
+        "type-annotation" : {
+          "content" : "Type",
+          "enabled" : false
+        },
+        "jipipe:node:name" : "Annotate with path properties",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "parent-path-annotation" : {
+          "content" : "Parent",
+          "enabled" : false
+        },
+        "jipipe:local-parallelization-num-threads" : {
+          "content" : 1,
+          "enabled" : false
+        },
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "jipipe:adaptive-parameters/attach-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/parameter-annotations-prefix" : "",
+        "jipipe:adaptive-parameters/enabled" : true,
+        "jipipe:adaptive-parameters/overridden-parameters" : [ ],
+        "jipipe:adaptive-parameters/parameter-annotations-use-internal-names" : false,
+        "jipipe:parameter-slot-algorithm/has-parameter-slot" : false,
+        "jipipe:parameter-slot-algorithm/attach-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/parameter-annotations-prefix" : "",
+        "jipipe:parameter-slot-algorithm/parameter-annotations-use-internal-names" : false,
+        "jipipe:data-batch-generation/limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        }
+      },
+      "1ee89d80-eb8b-4522-af70-9ac92b30c04c" : {
+        "jipipe:graph-compartment" : "c6d89a0b-c113-48d2-a537-5058c65d19c5",
+        "jipipe:alias-id" : "list-files",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Folders" : {
+              "slot-data-type" : "folder",
+              "slot-type" : "Input",
+              "name" : "Folders",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "Files" : {
+              "slot-data-type" : "file",
+              "slot-type" : "Output",
+              "name" : "Files",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "c6d89a0b-c113-48d2-a537-5058c65d19c5" : {
+            "VerticalCompact" : {
+              "x" : 6,
+              "y" : 34
+            }
+          }
+        },
+        "jipipe:node-info-id" : "folder-list-files",
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "subfolder" : null,
+        "recursive-follows-links" : true,
+        "jipipe:node:bookmarked" : false,
+        "filters" : {
+          "expression" : ""
+        },
+        "jipipe:algorithm:pass-through" : false,
+        "recursive" : false,
+        "jipipe:node:name" : "List files",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "jipipe:local-parallelization-num-threads" : {
+          "content" : 1,
+          "enabled" : false
+        },
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "jipipe:adaptive-parameters/attach-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/parameter-annotations-prefix" : "",
+        "jipipe:adaptive-parameters/enabled" : true,
+        "jipipe:adaptive-parameters/overridden-parameters" : [ ],
+        "jipipe:adaptive-parameters/parameter-annotations-use-internal-names" : false,
+        "jipipe:parameter-slot-algorithm/has-parameter-slot" : false,
+        "jipipe:parameter-slot-algorithm/attach-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/parameter-annotations-prefix" : "",
+        "jipipe:parameter-slot-algorithm/parameter-annotations-use-internal-names" : false,
+        "jipipe:data-batch-generation/limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        }
+      },
+      "0faf2e33-42e9-42d7-8953-4b8c43988626" : {
+        "jipipe:graph-compartment" : "c6d89a0b-c113-48d2-a537-5058c65d19c5",
+        "jipipe:alias-id" : "bio-formats-importer",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Input" : {
+              "slot-data-type" : "file",
+              "slot-type" : "Input",
+              "name" : "Input",
+              "custom-name" : null,
+              "description" : "The image file(s)",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "Output" : {
+              "slot-data-type" : "imagej-ome",
+              "slot-type" : "Output",
+              "name" : "Output",
+              "custom-name" : null,
+              "description" : "The imported data",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "c6d89a0b-c113-48d2-a537-5058c65d19c5" : {
+            "VerticalCompact" : {
+              "x" : 5,
+              "y" : 39
+            }
+          }
+        },
+        "jipipe:node-info-id" : "import-imagej-bioformats",
+        "concatenate" : false,
+        "split-channels" : false,
+        "jipipe:node:name" : "Bio-Formats importer",
+        "series-annotation" : {
+          "content" : "Series",
+          "enabled" : true
+        },
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "split-time-points" : false,
+        "stack-order" : "XYCZT",
+        "color-mode" : "Default",
+        "open-all-series" : false,
+        "jipipe:local-parallelization-num-threads" : {
+          "content" : 1,
+          "enabled" : false
+        },
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "stitch-tiles" : false,
+        "crop-regions" : [ ],
+        "jipipe:node:bookmarked" : false,
+        "swap-dimensions" : false,
+        "jipipe:algorithm:pass-through" : false,
+        "auto-scale" : true,
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "title-annotation" : {
+          "content" : "Image title",
+          "enabled" : false
+        },
+        "series-to-import" : [ 0 ],
+        "extract-rois" : true,
+        "split-focal-planes" : false,
+        "crop" : false,
+        "jipipe:adaptive-parameters/attach-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/parameter-annotations-prefix" : "",
+        "jipipe:adaptive-parameters/enabled" : true,
+        "jipipe:adaptive-parameters/overridden-parameters" : [ ],
+        "jipipe:adaptive-parameters/parameter-annotations-use-internal-names" : false,
+        "jipipe:data-batch-generation/limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        },
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "jipipe:parameter-slot-algorithm/has-parameter-slot" : false,
+        "jipipe:parameter-slot-algorithm/attach-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/parameter-annotations-prefix" : "",
+        "jipipe:parameter-slot-algorithm/parameter-annotations-use-internal-names" : false
+      },
+      "0de065ff-75a5-4a03-9c22-147169a20b2d" : {
+        "jipipe:graph-compartment" : "c6d89a0b-c113-48d2-a537-5058c65d19c5",
+        "jipipe:alias-id" : "split-channels-2",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Input" : {
+              "slot-data-type" : "imagej-imgplus",
+              "slot-type" : "Input",
+              "name" : "Input",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "C1" : {
+              "slot-data-type" : "imagej-imgplus",
+              "slot-type" : "Output",
+              "name" : "C1",
+              "custom-name" : "C2",
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "c6d89a0b-c113-48d2-a537-5058c65d19c5" : {
+            "VerticalCompact" : {
+              "x" : 9,
+              "y" : 54
+            }
+          }
+        },
+        "jipipe:node-info-id" : "ij1-color-split-channels-2",
+        "channel-name-annotation" : {
+          "content" : "Channel",
+          "enabled" : true
+        },
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "jipipe:node:bookmarked" : false,
+        "jipipe:algorithm:pass-through" : false,
+        "jipipe:node:name" : "Split channels",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "ignore-missing-channels" : true,
+        "jipipe:local-parallelization-num-threads" : {
+          "content" : 1,
+          "enabled" : false
+        },
+        "channel-index-annotation" : {
+          "content" : "Channel index",
+          "enabled" : true
+        },
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "jipipe:adaptive-parameters/attach-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/parameter-annotations-prefix" : "",
+        "jipipe:adaptive-parameters/enabled" : true,
+        "jipipe:adaptive-parameters/overridden-parameters" : [ ],
+        "jipipe:adaptive-parameters/parameter-annotations-use-internal-names" : false,
+        "jipipe:parameter-slot-algorithm/has-parameter-slot" : false,
+        "jipipe:parameter-slot-algorithm/attach-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/parameter-annotations-prefix" : "",
+        "jipipe:parameter-slot-algorithm/parameter-annotations-use-internal-names" : false,
+        "channel-to-slot-assignments/C1" : 1,
+        "jipipe:data-batch-generation/limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        }
+      },
+      "cd9c5c3d-61d0-4bfe-8b72-52ab2c6bd492" : {
+        "jipipe:graph-compartment" : "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851",
+        "jipipe:alias-id" : "export-image",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Input" : {
+              "slot-data-type" : "imagej-imgplus",
+              "slot-type" : "Input",
+              "name" : "Input",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "Exported file" : {
+              "slot-data-type" : "file",
+              "slot-type" : "Output",
+              "name" : "Exported file",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851" : {
+            "VerticalCompact" : {
+              "x" : 34,
+              "y" : 42
+            }
+          }
+        },
+        "jipipe:node-info-id" : "iji-export-image-v2",
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "file-format" : "TIFF",
+        "jipipe:node:bookmarked" : false,
+        "jipipe:algorithm:pass-through" : false,
+        "movie-animated-dimension" : "Frame",
+        "jipipe:node:name" : "Export image",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "jipipe:local-parallelization-num-threads" : {
+          "content" : 1,
+          "enabled" : false
+        },
+        "movie-fps" : 100,
+        "avi-compression" : "PNG",
+        "file-path" : {
+          "expression" : "PATH_COMBINE(\"D:/Rasha/LAMP-1/Analysis/Segmentations/Macrophages JIPipe/\", $\"Experiment\"+\"_\"+$\"Time\"+\"_\"+$\"Infection\"+\"_\"+$\"Image\"+\"_Mph_Label\")"
+        },
+        "jpeg-quality" : 100,
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "jipipe:adaptive-parameters/attach-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/parameter-annotations-prefix" : "",
+        "jipipe:adaptive-parameters/enabled" : true,
+        "jipipe:adaptive-parameters/overridden-parameters" : [ ],
+        "jipipe:adaptive-parameters/parameter-annotations-use-internal-names" : false,
+        "jipipe:parameter-slot-algorithm/has-parameter-slot" : false,
+        "jipipe:parameter-slot-algorithm/attach-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/parameter-annotations-prefix" : "",
+        "jipipe:parameter-slot-algorithm/parameter-annotations-use-internal-names" : false,
+        "jipipe:data-batch-generation/column-matching" : "PrefixHashUnion",
+        "jipipe:data-batch-generation/annotation-merge-strategy" : "Merge",
+        "jipipe:data-batch-generation/data-annotation-merge-strategy" : "MergeTables",
+        "jipipe:data-batch-generation/custom-matched-columns-expression" : {
+          "expression" : ""
+        },
+        "jipipe:data-batch-generation/skip-incomplete" : false,
+        "jipipe:data-batch-generation/custom-annotation-matching" : {
+          "expression" : "exact_match_results"
+        },
+        "jipipe:data-batch-generation/limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        },
+        "jipipe:data-batch-generation/force-flow-graph-solver" : false,
+        "jipipe:data-batch-generation/annotation-matching-method" : "ExactMatch"
+      },
+      "bd3088df-a052-4245-884f-e7736b5879fc" : {
+        "jipipe:graph-compartment" : "c6d89a0b-c113-48d2-a537-5058c65d19c5",
+        "jipipe:alias-id" : "annotate-with-file-names-1",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Input" : {
+              "slot-data-type" : "jipipe:data",
+              "slot-type" : "Input",
+              "name" : "Input",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "Output" : {
+              "slot-data-type" : "jipipe:data",
+              "slot-type" : "Output",
+              "name" : "Output",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "" : {
+            "VerticalCompact" : {
+              "x" : 7,
+              "y" : 39
+            }
+          },
+          "c6d89a0b-c113-48d2-a537-5058c65d19c5" : {
+            "VerticalCompact" : {
+              "x" : 4,
+              "y" : 44
+            }
+          }
+        },
+        "jipipe:node-info-id" : "annotate-by-project-paths",
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "jipipe:node:bookmarked" : false,
+        "merge-mode" : "OverwriteExisting",
+        "jipipe:algorithm:pass-through" : false,
+        "jipipe:node:name" : "Annotate with file names",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "generated-annotations" : {
+          "template" : {
+            "parameters" : {
+              "annotation-name" : {
+                "key" : "annotation-name",
+                "name" : "Annotation name",
+                "description" : "An expression that generates the annotation name",
+                "hidden" : false,
+                "field-class" : "org.hkijena.jipipe.plugins.expressions.JIPipeExpressionParameter",
+                "value" : {
+                  "expression" : "\"Annotation name\""
+                },
+                "short-key" : "annotation-name",
+                "field-class-id" : "expression",
+                "ui-order" : 0
+              },
+              "annotation-value" : {
+                "key" : "annotation-value",
+                "name" : "Annotation value",
+                "description" : "An expression that generates the annotation value\n\nThis function should return a valid file path string, which can be either hardcoded or built using string or <code>PATH_COMBINE</code> operations.\n\nHard-cording file paths: Just type the path into quotes as shown below <pre>\"C:/MyData/Outputs/Output_file\"</pre>\n\nUsing path combination: You can combine combine variables provided from annotations and expression variables to, for example, save create a path relative to the project directory or to a project user directory<pre>PATH_COMBINE(project_dir, \"Outputs\", \"Output_file\")</pre><pre>PATH_COMBINE(project_data_dirs [\"outputs\"], \"Outputs\", \"Output_file\")</pre>Alternative: <pre>PATH_COMBINE(project_data_dir.outputs, \"Outputs\", \"Output_file\")</pre>\n\nUsing expression functions: You can also use the standard string concatenation function to generate paths<pre>project_dir + \"/Outputs/Output_file\"</pre>",
+                "hidden" : false,
+                "field-class" : "org.hkijena.jipipe.plugins.expressions.DataExportExpressionParameter",
+                "value" : {
+                  "expression" : "PATH_COMBINE(data_dir, auto_file_name)"
+                },
+                "short-key" : "annotation-value",
+                "field-class-id" : "data-export-expression",
+                "ui-order" : 0
+              }
+            }
+          },
+          "items" : [ {
+            "parameters" : {
+              "annotation-name" : {
+                "key" : "annotation-name",
+                "name" : "Annotation name",
+                "description" : "An expression that generates the annotation name",
+                "hidden" : false,
+                "field-class" : "org.hkijena.jipipe.plugins.expressions.JIPipeExpressionParameter",
+                "value" : {
+                  "expression" : "\"Image\""
+                },
+                "short-key" : "annotation-name",
+                "field-class-id" : "expression",
+                "ui-order" : 0
+              },
+              "annotation-value" : {
+                "key" : "annotation-value",
+                "name" : "Annotation value",
+                "description" : "An expression that generates the annotation value\n\nThis function should return a valid file path string, which can be either hardcoded or built using string or <code>PATH_COMBINE</code> operations.\n\nHard-cording file paths: Just type the path into quotes as shown below <pre>\"C:/MyData/Outputs/Output_file\"</pre>\n\nUsing path combination: You can combine combine variables provided from annotations and expression variables to, for example, save create a path relative to the project directory or to a project user directory<pre>PATH_COMBINE(project_dir, \"Outputs\", \"Output_file\")</pre><pre>PATH_COMBINE(project_data_dirs [\"outputs\"], \"Outputs\", \"Output_file\")</pre>\n\nUsing expression functions: You can also use the standard string concatenation function to generate paths<pre>project_dir + \"/Outputs/Output_file\"</pre>",
+                "hidden" : false,
+                "field-class" : "org.hkijena.jipipe.plugins.expressions.DataExportExpressionParameter",
+                "value" : {
+                  "expression" : "SUBSTRING($\"data_string\", STRING_LAST_INDEX_OF($\"data_string\", \"I\"), STRING_LAST_INDEX_OF($\"data_string\", \".czi\"))"
+                },
+                "short-key" : "annotation-value",
+                "field-class-id" : "data-export-expression",
+                "ui-order" : 0
+              }
+            }
+          } ]
+        },
+        "jipipe:local-parallelization-num-threads" : {
+          "content" : 1,
+          "enabled" : false
+        },
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "jipipe:adaptive-parameters/attach-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/parameter-annotations-prefix" : "",
+        "jipipe:adaptive-parameters/enabled" : true,
+        "jipipe:adaptive-parameters/overridden-parameters" : [ ],
+        "jipipe:adaptive-parameters/parameter-annotations-use-internal-names" : false,
+        "jipipe:parameter-slot-algorithm/has-parameter-slot" : false,
+        "jipipe:parameter-slot-algorithm/attach-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/parameter-annotations-prefix" : "",
+        "jipipe:parameter-slot-algorithm/parameter-annotations-use-internal-names" : false,
+        "jipipe:data-batch-generation/limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        }
+      },
+      "10f2646b-2c48-4359-ba44-2d39ad8cac44" : {
+        "jipipe:graph-compartment" : "c6d89a0b-c113-48d2-a537-5058c65d19c5",
+        "jipipe:alias-id" : "annotate-with-path-properties-2",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Input" : {
+              "slot-data-type" : "path",
+              "slot-type" : "Input",
+              "name" : "Input",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "Output" : {
+              "slot-data-type" : "path",
+              "slot-type" : "Output",
+              "name" : "Output",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "" : {
+            "VerticalCompact" : {
+              "x" : 22,
+              "y" : 5
+            }
+          },
+          "c6d89a0b-c113-48d2-a537-5058c65d19c5" : {
+            "VerticalCompact" : {
+              "x" : 7,
+              "y" : 11
+            }
+          }
+        },
+        "jipipe:node-info-id" : "annotate-with-path-properties",
+        "last-modified-time-annotation" : {
+          "content" : "Last modified",
+          "enabled" : false
+        },
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "file-name-annotation" : {
+          "content" : "Experiment",
+          "enabled" : true
+        },
+        "size-annotation" : {
+          "content" : "Size",
+          "enabled" : false
+        },
+        "jipipe:node:bookmarked" : false,
+        "jipipe:algorithm:pass-through" : false,
+        "type-annotation" : {
+          "content" : "Type",
+          "enabled" : false
+        },
+        "jipipe:node:name" : "Annotate with path properties",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "parent-path-annotation" : {
+          "content" : "Parent",
+          "enabled" : false
+        },
+        "jipipe:local-parallelization-num-threads" : {
+          "content" : 1,
+          "enabled" : false
+        },
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "jipipe:adaptive-parameters/attach-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/parameter-annotations-prefix" : "",
+        "jipipe:adaptive-parameters/enabled" : true,
+        "jipipe:adaptive-parameters/overridden-parameters" : [ ],
+        "jipipe:adaptive-parameters/parameter-annotations-use-internal-names" : false,
+        "jipipe:parameter-slot-algorithm/has-parameter-slot" : false,
+        "jipipe:parameter-slot-algorithm/attach-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/parameter-annotations-prefix" : "",
+        "jipipe:parameter-slot-algorithm/parameter-annotations-use-internal-names" : false,
+        "jipipe:data-batch-generation/limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        }
+      },
+      "b09ef4e4-a329-4db4-bb1e-d1fea92c64f5" : {
+        "jipipe:graph-compartment" : "c6d89a0b-c113-48d2-a537-5058c65d19c5",
+        "jipipe:alias-id" : "list-subfolders-2",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Folders" : {
+              "slot-data-type" : "folder",
+              "slot-type" : "Input",
+              "name" : "Folders",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "Subfolders" : {
+              "slot-data-type" : "folder",
+              "slot-type" : "Output",
+              "name" : "Subfolders",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "" : {
+            "VerticalCompact" : {
+              "x" : 7,
+              "y" : 26
+            }
+          },
+          "c6d89a0b-c113-48d2-a537-5058c65d19c5" : {
+            "VerticalCompact" : {
+              "x" : 8,
+              "y" : 16
+            }
+          }
+        },
+        "jipipe:node-info-id" : "folder-list-subfolders",
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "subfolder" : null,
+        "recursive-follows-links" : true,
+        "jipipe:node:bookmarked" : false,
+        "filters" : {
+          "expression" : ""
+        },
+        "jipipe:algorithm:pass-through" : false,
+        "recursive" : false,
+        "jipipe:node:name" : "List subfolders",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "jipipe:local-parallelization-num-threads" : {
+          "content" : 1,
+          "enabled" : false
+        },
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "jipipe:adaptive-parameters/attach-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/parameter-annotations-prefix" : "",
+        "jipipe:adaptive-parameters/enabled" : true,
+        "jipipe:adaptive-parameters/overridden-parameters" : [ ],
+        "jipipe:adaptive-parameters/parameter-annotations-use-internal-names" : false,
+        "jipipe:parameter-slot-algorithm/has-parameter-slot" : false,
+        "jipipe:parameter-slot-algorithm/attach-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/parameter-annotations-prefix" : "",
+        "jipipe:parameter-slot-algorithm/parameter-annotations-use-internal-names" : false,
+        "jipipe:data-batch-generation/limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        }
+      },
+      "f6e8674b-cae7-435a-91b0-591b138df2ce" : {
+        "jipipe:graph-compartment" : "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851",
+        "jipipe:alias-id" : "cli-jx-non-local-means",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Input" : {
+              "slot-data-type" : "imagej-imgplus",
+              "slot-type" : "Input",
+              "name" : "Input",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "Destination" : {
+              "slot-data-type" : "imagej-imgplus",
+              "slot-type" : "Output",
+              "name" : "Destination",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "" : {
+            "VerticalCompact" : {
+              "x" : 76,
+              "y" : 21
+            }
+          },
+          "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851" : {
+            "VerticalCompact" : {
+              "x" : 31,
+              "y" : 10
+            }
+          }
+        },
+        "jipipe:node-info-id" : "clij:plugin:net.haesleinhuepf.clijx.plugins.NonLocalMeans",
+        "equalize-replicate-last" : false,
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "jipipe:node:bookmarked" : false,
+        "jipipe:algorithm:pass-through" : false,
+        "split-mode" : "To3D",
+        "jipipe:node:name" : "Cli Jx Non Local Means",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "avoid-gpu-memory" : true,
+        "jipipe:local-parallelization-num-threads" : {
+          "content" : 1,
+          "enabled" : false
+        },
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "jipipe:adaptive-parameters/attach-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/parameter-annotations-prefix" : "",
+        "jipipe:adaptive-parameters/enabled" : true,
+        "jipipe:adaptive-parameters/overridden-parameters" : [ ],
+        "jipipe:adaptive-parameters/parameter-annotations-use-internal-names" : false,
+        "clij-parameters/radiusX" : 2.0,
+        "clij-parameters/radiusY" : 2.0,
+        "clij-parameters/radiusZ" : 2.0,
+        "clij-parameters/sigma" : 15.0,
+        "jipipe:parameter-slot-algorithm/has-parameter-slot" : false,
+        "jipipe:parameter-slot-algorithm/attach-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/parameter-annotations-prefix" : "",
+        "jipipe:parameter-slot-algorithm/parameter-annotations-use-internal-names" : false,
+        "jipipe:data-batch-generation/column-matching" : "PrefixHashUnion",
+        "jipipe:data-batch-generation/annotation-merge-strategy" : "Merge",
+        "jipipe:data-batch-generation/data-annotation-merge-strategy" : "MergeTables",
+        "jipipe:data-batch-generation/custom-matched-columns-expression" : {
+          "expression" : ""
+        },
+        "jipipe:data-batch-generation/skip-incomplete" : false,
+        "jipipe:data-batch-generation/custom-annotation-matching" : {
+          "expression" : "exact_match_results"
+        },
+        "jipipe:data-batch-generation/limit" : {
+          "content" : {
+            "value" : "0-0",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        },
+        "jipipe:data-batch-generation/force-flow-graph-solver" : false,
+        "jipipe:data-batch-generation/annotation-matching-method" : "ExactMatch"
+      },
+      "06a5baf8-e10e-4145-996a-6d2755af354b" : {
+        "jipipe:graph-compartment" : "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851",
+        "jipipe:alias-id" : "convert-2d-roi-to-rgb-2",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "ROI" : {
+              "slot-data-type" : "imagej-roi",
+              "slot-type" : "Input",
+              "name" : "ROI",
+              "custom-name" : null,
+              "description" : "The ROI",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            },
+            "Image" : {
+              "slot-data-type" : "imagej-imgplus",
+              "slot-type" : "Input",
+              "name" : "Image",
+              "custom-name" : null,
+              "description" : "The image where ROI are drawn on",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : true
+            }
+          },
+          "output" : {
+            "Output" : {
+              "slot-data-type" : "imagej-imgplus-color-rgb",
+              "slot-type" : "Output",
+              "name" : "Output",
+              "custom-name" : null,
+              "description" : "The ROI visualization (RGB image)",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "" : {
+            "VerticalCompact" : {
+              "x" : 76,
+              "y" : 44
+            }
+          },
+          "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851" : {
+            "VerticalCompact" : {
+              "x" : 21,
+              "y" : 23
+            }
+          }
+        },
+        "jipipe:node-info-id" : "ij1-roi-to-rgb",
+        "draw-over" : true,
+        "prefer-render-via-overlay" : false,
+        "jipipe:node:name" : "Convert 2D ROI to RGB",
+        "label-foreground" : "#FFFFFF",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "label-size" : 9,
+        "jipipe:local-parallelization-num-threads" : {
+          "content" : 1,
+          "enabled" : false
+        },
+        "override-fill-color" : {
+          "content" : "#FF0000",
+          "enabled" : false
+        },
+        "draw-outline-mode" : "Always",
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "magnification" : 1.0,
+        "label-background" : {
+          "content" : "#000000",
+          "enabled" : false
+        },
+        "override-line-width" : {
+          "content" : 3.0,
+          "enabled" : true
+        },
+        "drawn-label" : "None",
+        "jipipe:node:bookmarked" : false,
+        "ignore-c" : false,
+        "jipipe:algorithm:pass-through" : false,
+        "label-font-family" : "Dialog",
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "fill-outline-mode" : "IfAvailable",
+        "override-line-color" : {
+          "content" : "#FFFF00",
+          "enabled" : false
+        },
+        "ignore-t" : false,
+        "opacity" : 1.0,
+        "ignore-z" : false,
+        "jipipe:adaptive-parameters/attach-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/parameter-annotations-prefix" : "",
+        "jipipe:adaptive-parameters/enabled" : true,
+        "jipipe:adaptive-parameters/overridden-parameters" : [ ],
+        "jipipe:adaptive-parameters/parameter-annotations-use-internal-names" : false,
+        "jipipe:data-batch-generation/column-matching" : "Intersection",
+        "jipipe:data-batch-generation/annotation-merge-strategy" : "Merge",
+        "jipipe:data-batch-generation/data-annotation-merge-strategy" : "MergeTables",
+        "jipipe:data-batch-generation/custom-matched-columns-expression" : {
+          "expression" : ""
+        },
+        "jipipe:data-batch-generation/skip-incomplete" : false,
+        "jipipe:data-batch-generation/custom-annotation-matching" : {
+          "expression" : "exact_match_results"
+        },
+        "jipipe:data-batch-generation/limit" : {
+          "content" : {
+            "value" : "0-0",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        },
+        "jipipe:data-batch-generation/force-flow-graph-solver" : false,
+        "jipipe:data-batch-generation/annotation-matching-method" : "ExactMatch",
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "jipipe:parameter-slot-algorithm/has-parameter-slot" : false,
+        "jipipe:parameter-slot-algorithm/attach-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/parameter-annotations-prefix" : "",
+        "jipipe:parameter-slot-algorithm/parameter-annotations-use-internal-names" : false
+      },
+      "88e12f14-c489-4614-8679-b24d2e842899" : {
+        "jipipe:graph-compartment" : "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851",
+        "jipipe:alias-id" : "pretrained-cellpose-2-x-model-2",
+        "jipipe:slot-configuration" : {
+          "input" : { },
+          "output" : {
+            "Output" : {
+              "slot-data-type" : "cellpose-model-v2",
+              "slot-type" : "Output",
+              "name" : "Output",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "" : {
+            "VerticalCompact" : {
+              "x" : 88,
+              "y" : 23
+            }
+          },
+          "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851" : {
+            "VerticalCompact" : {
+              "x" : 47,
+              "y" : 11
+            }
+          }
+        },
+        "jipipe:node-info-id" : "import-cellpose-2.x-pretrained-model",
+        "models" : [ "cyto2" ],
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "model-name-annotation" : {
+          "content" : "Model",
+          "enabled" : true
+        },
+        "jipipe:node:bookmarked" : false,
+        "jipipe:algorithm:pass-through" : false,
+        "jipipe:node:name" : "Pretrained Cellpose 2.x model",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "jipipe:local-parallelization-num-threads" : {
+          "content" : 1,
+          "enabled" : false
+        },
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "jipipe:adaptive-parameters/attach-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/parameter-annotations-prefix" : "",
+        "jipipe:adaptive-parameters/enabled" : true,
+        "jipipe:adaptive-parameters/overridden-parameters" : [ ],
+        "jipipe:adaptive-parameters/parameter-annotations-use-internal-names" : false,
+        "jipipe:parameter-slot-algorithm/has-parameter-slot" : false,
+        "jipipe:parameter-slot-algorithm/attach-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/parameter-annotations-prefix" : "",
+        "jipipe:parameter-slot-algorithm/parameter-annotations-use-internal-names" : false,
+        "jipipe:data-batch-generation/limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        }
+      },
+      "967777a2-7f63-4e91-a601-7770ae8d77b2" : {
+        "jipipe:graph-compartment" : "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851",
+        "jipipe:alias-id" : "cellpose-segmentation-2-x-2",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Input" : {
+              "slot-data-type" : "imagej-imgplus",
+              "slot-type" : "Input",
+              "name" : "Input",
+              "custom-name" : null,
+              "description" : "The input images",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            },
+            "Model" : {
+              "slot-data-type" : "cellpose-model-v2",
+              "slot-type" : "Input",
+              "name" : "Model",
+              "custom-name" : null,
+              "description" : "The models (pretrained/custom). All workloads are repeated per model.",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "Labels" : {
+              "slot-data-type" : "imagej-imgplus-greyscale",
+              "slot-type" : "Output",
+              "name" : "Labels",
+              "custom-name" : null,
+              "description" : "A grayscale image where each connected component is assigned a unique value",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            },
+            "ROI" : {
+              "slot-data-type" : "imagej-roi",
+              "slot-type" : "Output",
+              "name" : "ROI",
+              "custom-name" : null,
+              "description" : "ROI of the segmented areas",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "" : {
+            "VerticalCompact" : {
+              "x" : 75,
+              "y" : 29
+            }
+          },
+          "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851" : {
+            "VerticalCompact" : {
+              "x" : 32,
+              "y" : 17
+            }
+          }
+        },
+        "jipipe:node-info-id" : "cellpose-inference-2.x",
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "enable-3d-segmentation" : true,
+        "suppress-logs" : false,
+        "jipipe:node:bookmarked" : false,
+        "jipipe:algorithm:pass-through" : false,
+        "jipipe:node:name" : "Cellpose segmentation (2.x)",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "diameter-annotation" : {
+          "content" : "Diameter",
+          "enabled" : true
+        },
+        "cleanup-afterwards" : true,
+        "diameter" : {
+          "content" : 150.0,
+          "enabled" : true
+        },
+        "enable-multichannel" : true,
+        "override-environment" : {
+          "content" : {
+            "name" : "",
+            "version" : "unknown",
+            "source" : "NA",
+            "load-from-artifact" : false,
+            "artifact-query" : {
+              "query" : null
+            },
+            "environment-type" : "System",
+            "arguments" : {
+              "expression" : "ARRAY(script_file)"
+            },
+            "executable-path" : ""
+          },
+          "enabled" : false
+        },
+        "threshold-parameters/stitch-threshold" : {
+          "content" : 0.0,
+          "enabled" : false
+        },
+        "threshold-parameters/cell-probability-threshold" : 0.0,
+        "threshold-parameters/flow-threshold" : 0.4,
+        "threshold-parameters/exclude-on-edges" : false,
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "enhancement-parameters/anisotropy" : {
+          "content" : 1.0,
+          "enabled" : false
+        },
+        "enhancement-parameters/normalize" : true,
+        "enhancement-parameters/interpolate" : true,
+        "enhancement-parameters/no-resample" : false,
+        "enhancement-parameters/net-average" : true,
+        "jipipe:adaptive-parameters/attach-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/parameter-annotations-prefix" : "",
+        "jipipe:adaptive-parameters/enabled" : true,
+        "jipipe:adaptive-parameters/overridden-parameters" : [ ],
+        "jipipe:adaptive-parameters/parameter-annotations-use-internal-names" : false,
+        "jipipe:parameter-slot-algorithm/has-parameter-slot" : false,
+        "jipipe:parameter-slot-algorithm/attach-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/parameter-annotations-prefix" : "",
+        "jipipe:parameter-slot-algorithm/parameter-annotations-use-internal-names" : false,
+        "output-parameters/output-roi" : true,
+        "output-parameters/output-probabilities" : false,
+        "output-parameters/output-labels" : true,
+        "output-parameters/output-flows-xy" : false,
+        "output-parameters/output-flows-z" : false,
+        "output-parameters/output-flows-d" : false,
+        "jipipe:data-batch-generation/annotation-merge-strategy" : "Merge",
+        "jipipe:data-batch-generation/data-annotation-merge-strategy" : "MergeTables",
+        "gpu-parameters/enable-gpu" : true,
+        "gpu-parameters/gpu-device" : {
+          "content" : 0,
+          "enabled" : false
+        },
+        "channel-parameters/invert" : false,
+        "channel-parameters/nuclear-channel" : {
+          "content" : 0,
+          "enabled" : false
+        },
+        "channel-parameters/segmented-channel" : {
+          "content" : 0,
+          "enabled" : false
+        },
+        "channel-parameters/all-channels" : false
+      },
+      "254a400f-056c-4f11-a2d6-1268b2de461c" : {
+        "jipipe:graph-compartment" : "c6d89a0b-c113-48d2-a537-5058c65d19c5",
+        "jipipe:alias-id" : "split-channels-1",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Input" : {
+              "slot-data-type" : "imagej-imgplus",
+              "slot-type" : "Input",
+              "name" : "Input",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "C2" : {
+              "slot-data-type" : "imagej-imgplus",
+              "slot-type" : "Output",
+              "name" : "C2",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "" : {
+            "VerticalCompact" : {
+              "x" : 9,
+              "y" : 50
+            }
+          },
+          "c6d89a0b-c113-48d2-a537-5058c65d19c5" : {
+            "VerticalCompact" : {
+              "x" : 2,
+              "y" : 54
+            }
+          }
+        },
+        "jipipe:node-info-id" : "ij1-color-split-channels-2",
+        "channel-name-annotation" : {
+          "content" : "Channel",
+          "enabled" : true
+        },
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "jipipe:node:bookmarked" : false,
+        "jipipe:algorithm:pass-through" : false,
+        "jipipe:node:name" : "Split channels",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "ignore-missing-channels" : true,
+        "jipipe:local-parallelization-num-threads" : {
+          "content" : 1,
+          "enabled" : false
+        },
+        "channel-index-annotation" : {
+          "content" : "Channel index",
+          "enabled" : true
+        },
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "jipipe:adaptive-parameters/attach-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/parameter-annotations-prefix" : "",
+        "jipipe:adaptive-parameters/enabled" : true,
+        "jipipe:adaptive-parameters/overridden-parameters" : [ ],
+        "jipipe:adaptive-parameters/parameter-annotations-use-internal-names" : false,
+        "jipipe:parameter-slot-algorithm/has-parameter-slot" : false,
+        "jipipe:parameter-slot-algorithm/attach-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/parameter-annotations-prefix" : "",
+        "jipipe:parameter-slot-algorithm/parameter-annotations-use-internal-names" : false,
+        "channel-to-slot-assignments/C2" : 2,
+        "jipipe:data-batch-generation/limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        }
+      },
+      "2d3a5f77-3bc8-4382-afe5-3499bb0385ed" : {
+        "jipipe:graph-compartment" : "c6d89a0b-c113-48d2-a537-5058c65d19c5",
+        "jipipe:alias-id" : "split-filter-by-annotation-filt",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Input" : {
+              "slot-data-type" : "jipipe:data",
+              "slot-type" : "Input",
+              "name" : "Input",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "Output" : {
+              "slot-data-type" : "jipipe:data",
+              "slot-type" : "Output",
+              "name" : "Output",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "c6d89a0b-c113-48d2-a537-5058c65d19c5" : {
+            "VerticalCompact" : {
+              "x" : 2,
+              "y" : 49
+            }
+          }
+        },
+        "jipipe:node-info-id" : "annotate-split-by-annotation",
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "jipipe:node:bookmarked" : false,
+        "jipipe:algorithm:pass-through" : false,
+        "jipipe:node:name" : "Rep.1",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "target-slots/Output" : {
+          "expression" : "Experiment CONTAINS \"Rep.1\""
+        }
+      },
+      "cf727b25-5bfb-4214-b164-93a517d18fdf" : {
+        "jipipe:graph-compartment" : "c6d89a0b-c113-48d2-a537-5058c65d19c5",
+        "jipipe:alias-id" : "rep-1",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Input" : {
+              "slot-data-type" : "jipipe:data",
+              "slot-type" : "Input",
+              "name" : "Input",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "Output" : {
+              "slot-data-type" : "jipipe:data",
+              "slot-type" : "Output",
+              "name" : "Output",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "" : {
+            "VerticalCompact" : {
+              "x" : 7,
+              "y" : 50
+            }
+          },
+          "c6d89a0b-c113-48d2-a537-5058c65d19c5" : {
+            "VerticalCompact" : {
+              "x" : 10,
+              "y" : 49
+            }
+          }
+        },
+        "jipipe:node-info-id" : "annotate-split-by-annotation",
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "jipipe:node:bookmarked" : false,
+        "jipipe:algorithm:pass-through" : false,
+        "jipipe:node:name" : "Rep.2-4",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "target-slots/Output" : {
+          "expression" : "Experiment ! CONTAINS \"Rep.1\""
+        }
+      },
+      "d3f5f56c-65ba-4bc6-a424-3194cab2bd2a" : {
+        "jipipe:graph-compartment" : "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851",
+        "jipipe:alias-id" : "limit-data",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Input" : {
+              "slot-data-type" : "jipipe:data",
+              "slot-type" : "Input",
+              "name" : "Input",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "Output" : {
+              "slot-data-type" : "jipipe:data",
+              "slot-type" : "Output",
+              "name" : "Output",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851" : {
+            "VerticalCompact" : {
+              "x" : 21,
+              "y" : 2
+            }
+          }
+        },
+        "jipipe:node-info-id" : "data-slicer",
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "slice-range" : {
+          "value" : "17-20",
+          "is-expression" : false,
+          "expression" : {
+            "expression" : "MAKE_SEQUENCE(0, 10)"
+          }
+        },
+        "jipipe:node:bookmarked" : false,
+        "jipipe:algorithm:pass-through" : false,
+        "jipipe:node:name" : "Limit data",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "jipipe:parameter-slot-algorithm/has-parameter-slot" : false,
+        "jipipe:parameter-slot-algorithm/attach-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/parameter-annotations-prefix" : "",
+        "jipipe:parameter-slot-algorithm/parameter-annotations-use-internal-names" : false
+      },
+      "fa35fc95-a946-436b-bc2d-edd01fcced59" : {
+        "jipipe:graph-compartment" : "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851",
+        "jipipe:alias-id" : "export-roi",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Input" : {
+              "slot-data-type" : "imagej-roi",
+              "slot-type" : "Input",
+              "name" : "Input",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "Exported file" : {
+              "slot-data-type" : "file",
+              "slot-type" : "Output",
+              "name" : "Exported file",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851" : {
+            "VerticalCompact" : {
+              "x" : 36,
+              "y" : 33
+            }
+          }
+        },
+        "jipipe:node-info-id" : "iji-export-roi-list-v2",
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "export-as-roi-file" : false,
+        "jipipe:node:bookmarked" : false,
+        "jipipe:algorithm:pass-through" : false,
+        "jipipe:node:name" : "Export ROI",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "jipipe:local-parallelization-num-threads" : {
+          "content" : 1,
+          "enabled" : false
+        },
+        "file-path" : {
+          "expression" : "PATH_COMBINE(\"D:/Rasha/LAMP-1/Analysis/Segmentations/Macrophages JIPipe/\", $\"Experiment\"+\"_\"+$\"Time\"+\"_\"+$\"Infection\"+\"_\"+$\"Image\"+\"_Mph_ROI\")"
+        },
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "jipipe:adaptive-parameters/attach-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/parameter-annotations-prefix" : "",
+        "jipipe:adaptive-parameters/enabled" : true,
+        "jipipe:adaptive-parameters/overridden-parameters" : [ ],
+        "jipipe:adaptive-parameters/parameter-annotations-use-internal-names" : false,
+        "jipipe:parameter-slot-algorithm/has-parameter-slot" : false,
+        "jipipe:parameter-slot-algorithm/attach-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/parameter-annotations-prefix" : "",
+        "jipipe:parameter-slot-algorithm/parameter-annotations-use-internal-names" : false,
+        "jipipe:data-batch-generation/column-matching" : "PrefixHashUnion",
+        "jipipe:data-batch-generation/annotation-merge-strategy" : "Merge",
+        "jipipe:data-batch-generation/data-annotation-merge-strategy" : "MergeTables",
+        "jipipe:data-batch-generation/custom-matched-columns-expression" : {
+          "expression" : ""
+        },
+        "jipipe:data-batch-generation/skip-incomplete" : false,
+        "jipipe:data-batch-generation/custom-annotation-matching" : {
+          "expression" : "exact_match_results"
+        },
+        "jipipe:data-batch-generation/limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        },
+        "jipipe:data-batch-generation/force-flow-graph-solver" : false,
+        "jipipe:data-batch-generation/annotation-matching-method" : "ExactMatch"
+      },
+      "ad9a5075-1654-4df8-b258-e4de6b63233a" : {
+        "jipipe:graph-compartment" : "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851",
+        "jipipe:alias-id" : "export-image-1",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Input" : {
+              "slot-data-type" : "imagej-imgplus",
+              "slot-type" : "Input",
+              "name" : "Input",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "Exported file" : {
+              "slot-data-type" : "file",
+              "slot-type" : "Output",
+              "name" : "Exported file",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "" : {
+            "VerticalCompact" : {
+              "x" : 32,
+              "y" : 34
+            }
+          },
+          "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851" : {
+            "VerticalCompact" : {
+              "x" : 43,
+              "y" : 33
+            }
+          }
+        },
+        "jipipe:node-info-id" : "iji-export-image-v2",
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "file-format" : "TIFF",
+        "jipipe:node:bookmarked" : false,
+        "jipipe:algorithm:pass-through" : false,
+        "movie-animated-dimension" : "Frame",
+        "jipipe:node:name" : "Export image",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "jipipe:local-parallelization-num-threads" : {
+          "content" : 1,
+          "enabled" : false
+        },
+        "movie-fps" : 100,
+        "avi-compression" : "PNG",
+        "file-path" : {
+          "expression" : "PATH_COMBINE(\"D:/Rasha/LAMP-1/Analysis/Segmentations/Macrophages JIPipe/\", $\"Experiment\"+\"_\"+$\"Time\"+\"_\"+$\"Infection\"+\"_\"+$\"Image\"+\"_Mph_ROI_RGB\")"
+        },
+        "jpeg-quality" : 100,
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "jipipe:adaptive-parameters/attach-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/parameter-annotations-prefix" : "",
+        "jipipe:adaptive-parameters/enabled" : true,
+        "jipipe:adaptive-parameters/overridden-parameters" : [ ],
+        "jipipe:adaptive-parameters/parameter-annotations-use-internal-names" : false,
+        "jipipe:parameter-slot-algorithm/has-parameter-slot" : false,
+        "jipipe:parameter-slot-algorithm/attach-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/parameter-annotations-prefix" : "",
+        "jipipe:parameter-slot-algorithm/parameter-annotations-use-internal-names" : false,
+        "jipipe:data-batch-generation/column-matching" : "PrefixHashUnion",
+        "jipipe:data-batch-generation/annotation-merge-strategy" : "Merge",
+        "jipipe:data-batch-generation/data-annotation-merge-strategy" : "MergeTables",
+        "jipipe:data-batch-generation/custom-matched-columns-expression" : {
+          "expression" : ""
+        },
+        "jipipe:data-batch-generation/skip-incomplete" : false,
+        "jipipe:data-batch-generation/custom-annotation-matching" : {
+          "expression" : "exact_match_results"
+        },
+        "jipipe:data-batch-generation/limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        },
+        "jipipe:data-batch-generation/force-flow-graph-solver" : false,
+        "jipipe:data-batch-generation/annotation-matching-method" : "ExactMatch"
+      },
+      "66554ad3-15a9-44ff-b94d-59d459822654" : {
+        "jipipe:graph-compartment" : "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851",
+        "jipipe:alias-id" : "set-lut-color-map",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Input" : {
+              "slot-data-type" : "imagej-imgplus-greyscale",
+              "slot-type" : "Input",
+              "name" : "Input",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "Output" : {
+              "slot-data-type" : "imagej-imgplus-greyscale",
+              "slot-type" : "Output",
+              "name" : "Output",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851" : {
+            "VerticalCompact" : {
+              "x" : 25,
+              "y" : 34
+            }
+          }
+        },
+        "jipipe:node-info-id" : "ij1-set-lut-from-color-map",
+        "duplicate-image" : true,
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "jipipe:node:bookmarked" : false,
+        "jipipe:algorithm:pass-through" : false,
+        "jipipe:node:name" : "Set LUT (color map)",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "restrict-to-channels" : {
+          "content" : {
+            "value" : null,
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        },
+        "color-map" : "glasbey_on_dark",
+        "jipipe:local-parallelization-num-threads" : {
+          "content" : 1,
+          "enabled" : false
+        },
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "jipipe:adaptive-parameters/attach-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/parameter-annotations-prefix" : "",
+        "jipipe:adaptive-parameters/enabled" : true,
+        "jipipe:adaptive-parameters/overridden-parameters" : [ ],
+        "jipipe:adaptive-parameters/parameter-annotations-use-internal-names" : false,
+        "jipipe:parameter-slot-algorithm/has-parameter-slot" : false,
+        "jipipe:parameter-slot-algorithm/attach-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/parameter-annotations-prefix" : "",
+        "jipipe:parameter-slot-algorithm/parameter-annotations-use-internal-names" : false,
+        "jipipe:data-batch-generation/limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        }
+      },
+      "989b437d-340a-43bf-a9b1-c6945db86fa0" : {
+        "jipipe:graph-compartment" : "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851",
+        "jipipe:alias-id" : "export-image-2",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Input" : {
+              "slot-data-type" : "imagej-imgplus",
+              "slot-type" : "Input",
+              "name" : "Input",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "Exported file" : {
+              "slot-data-type" : "file",
+              "slot-type" : "Output",
+              "name" : "Exported file",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "" : {
+            "VerticalCompact" : {
+              "x" : 36,
+              "y" : 43
+            }
+          },
+          "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851" : {
+            "VerticalCompact" : {
+              "x" : 23,
+              "y" : 44
+            }
+          }
+        },
+        "jipipe:node-info-id" : "iji-export-image-v2",
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "file-format" : "TIFF",
+        "jipipe:node:bookmarked" : false,
+        "jipipe:algorithm:pass-through" : false,
+        "movie-animated-dimension" : "Frame",
+        "jipipe:node:name" : "Export image",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "jipipe:local-parallelization-num-threads" : {
+          "content" : 1,
+          "enabled" : false
+        },
+        "movie-fps" : 100,
+        "avi-compression" : "PNG",
+        "file-path" : {
+          "expression" : "PATH_COMBINE(\"D:/Rasha/LAMP-1/Analysis/Segmentations/Macrophages JIPipe/\", $\"Experiment\"+\"_\"+$\"Time\"+\"_\"+$\"Infection\"+\"_\"+$\"Image\"+\"_Mph_Label_RGB\")"
+        },
+        "jpeg-quality" : 100,
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "jipipe:adaptive-parameters/attach-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/parameter-annotations-prefix" : "",
+        "jipipe:adaptive-parameters/enabled" : true,
+        "jipipe:adaptive-parameters/overridden-parameters" : [ ],
+        "jipipe:adaptive-parameters/parameter-annotations-use-internal-names" : false,
+        "jipipe:parameter-slot-algorithm/has-parameter-slot" : false,
+        "jipipe:parameter-slot-algorithm/attach-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/parameter-annotations-prefix" : "",
+        "jipipe:parameter-slot-algorithm/parameter-annotations-use-internal-names" : false,
+        "jipipe:data-batch-generation/column-matching" : "PrefixHashUnion",
+        "jipipe:data-batch-generation/annotation-merge-strategy" : "Merge",
+        "jipipe:data-batch-generation/data-annotation-merge-strategy" : "MergeTables",
+        "jipipe:data-batch-generation/custom-matched-columns-expression" : {
+          "expression" : ""
+        },
+        "jipipe:data-batch-generation/skip-incomplete" : false,
+        "jipipe:data-batch-generation/custom-annotation-matching" : {
+          "expression" : "exact_match_results"
+        },
+        "jipipe:data-batch-generation/limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        },
+        "jipipe:data-batch-generation/force-flow-graph-solver" : false,
+        "jipipe:data-batch-generation/annotation-matching-method" : "ExactMatch"
+      },
+      "30133abf-d1ef-4f96-bf38-773eb1995a0e" : {
+        "jipipe:graph-compartment" : "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851",
+        "jipipe:alias-id" : "apply-lut",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "Input" : {
+              "slot-data-type" : "imagej-imgplus-greyscale",
+              "slot-type" : "Input",
+              "name" : "Input",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          },
+          "output" : {
+            "Output" : {
+              "slot-data-type" : "imagej-imgplus-color-rgb",
+              "slot-type" : "Output",
+              "name" : "Output",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851" : {
+            "VerticalCompact" : {
+              "x" : 24,
+              "y" : 39
+            }
+          }
+        },
+        "jipipe:node-info-id" : "ij1-apply-lut",
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "jipipe:local-parallelization-num-threads" : {
+          "content" : 1,
+          "enabled" : false
+        },
+        "jipipe:node:bookmarked" : false,
+        "jipipe:algorithm:pass-through" : false,
+        "jipipe:node:name" : "Apply LUT",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "jipipe:adaptive-parameters/attach-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/parameter-annotations-prefix" : "",
+        "jipipe:adaptive-parameters/enabled" : true,
+        "jipipe:adaptive-parameters/overridden-parameters" : [ ],
+        "jipipe:adaptive-parameters/parameter-annotations-use-internal-names" : false,
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "jipipe:parameter-slot-algorithm/has-parameter-slot" : false,
+        "jipipe:parameter-slot-algorithm/attach-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/parameter-annotations-prefix" : "",
+        "jipipe:parameter-slot-algorithm/parameter-annotations-use-internal-names" : false,
+        "jipipe:data-batch-generation/limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        }
+      },
+      "581ca03d-e60f-4b72-9f99-f2c23fe67b82" : {
+        "jipipe:graph-compartment" : "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851",
+        "jipipe:alias-id" : "filter-2d-roi-by-statistics",
+        "jipipe:slot-configuration" : {
+          "input" : {
+            "ROI" : {
+              "slot-data-type" : "imagej-roi",
+              "slot-type" : "Input",
+              "name" : "ROI",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            },
+            "Reference" : {
+              "slot-data-type" : "imagej-imgplus",
+              "slot-type" : "Input",
+              "name" : "Reference",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : true
+            }
+          },
+          "output" : {
+            "Output" : {
+              "slot-data-type" : "imagej-roi",
+              "slot-type" : "Output",
+              "name" : "Output",
+              "custom-name" : null,
+              "description" : "",
+              "is-virtual" : false,
+              "save-outputs" : true,
+              "is-optional" : false
+            }
+          }
+        },
+        "jipipe:ui-grid-location" : {
+          "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851" : {
+            "VerticalCompact" : {
+              "x" : 57,
+              "y" : 22
+            }
+          }
+        },
+        "jipipe:node-info-id" : "ij1-roi-filter-statistics",
+        "output-empty-lists" : true,
+        "jipipe:algorithm:enabled" : true,
+        "jipipe:node:ui-locked" : false,
+        "jipipe:node:bookmarked" : false,
+        "jipipe:algorithm:pass-through" : false,
+        "measure-in-physical-units" : true,
+        "jipipe:node:name" : "Filter 2D ROI by statistics",
+        "jipipe:algorithm:runtime-partition" : {
+          "index" : 0
+        },
+        "jipipe:node:description" : "<html><head></head><body></body></html>",
+        "filter" : {
+          "expression" : ""
+        },
+        "jipipe:local-parallelization-num-threads" : {
+          "content" : 1,
+          "enabled" : false
+        },
+        "measurements" : {
+          "values" : [ "PixelValueStandardDeviation", "CenterOfMass", "Perimeter", "PixelValueSkewness", "StackPosition", "PixelValueMean", "BoundingRectangle", "FitEllipse", "FeretDiameter", "Area", "ShapeDescriptors", "PixelValueModal", "PixelValueMinMax", "IntegratedDensity", "PixelValueKurtosis", "PixelValueMedian", "Centroid", "AreaFraction" ],
+          "collapsed" : true
+        },
+        "jipipe:algorithm:custom-expression-variables" : {
+          "parameters" : { }
+        },
+        "jipipe:adaptive-parameters/attach-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:adaptive-parameters/parameter-annotations-prefix" : "",
+        "jipipe:adaptive-parameters/enabled" : true,
+        "jipipe:adaptive-parameters/overridden-parameters" : [ ],
+        "jipipe:adaptive-parameters/parameter-annotations-use-internal-names" : false,
+        "jipipe:parameter-slot-algorithm/has-parameter-slot" : false,
+        "jipipe:parameter-slot-algorithm/attach-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/attach-only-non-default-parameter-annotations" : true,
+        "jipipe:parameter-slot-algorithm/parameter-annotations-prefix" : "",
+        "jipipe:parameter-slot-algorithm/parameter-annotations-use-internal-names" : false,
+        "jipipe:data-batch-generation/column-matching" : "PrefixHashUnion",
+        "jipipe:data-batch-generation/annotation-merge-strategy" : "Merge",
+        "jipipe:data-batch-generation/data-annotation-merge-strategy" : "MergeTables",
+        "jipipe:data-batch-generation/custom-matched-columns-expression" : {
+          "expression" : ""
+        },
+        "jipipe:data-batch-generation/skip-incomplete" : false,
+        "jipipe:data-batch-generation/custom-annotation-matching" : {
+          "expression" : "exact_match_results"
+        },
+        "jipipe:data-batch-generation/limit" : {
+          "content" : {
+            "value" : "0-9",
+            "is-expression" : false,
+            "expression" : {
+              "expression" : "MAKE_SEQUENCE(0, 10)"
+            }
+          },
+          "enabled" : false
+        },
+        "jipipe:data-batch-generation/force-flow-graph-solver" : false,
+        "jipipe:data-batch-generation/annotation-matching-method" : "ExactMatch"
+      }
+    },
+    "edges" : [ {
+      "source-node" : "c89eca62-45bb-4324-be6e-2c781bb8a48a",
+      "target-node" : "10f2646b-2c48-4359-ba44-2d39ad8cac44",
+      "source-slot" : "Subfolders",
+      "target-slot" : "Input",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "967777a2-7f63-4e91-a601-7770ae8d77b2",
+      "target-node" : "e67e4303-bf99-4447-9b8a-2b64b2d8dd66",
+      "source-slot" : "ROI",
+      "target-slot" : "Data ROI",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "e67e4303-bf99-4447-9b8a-2b64b2d8dd66",
+      "target-node" : "ad9a5075-1654-4df8-b258-e4de6b63233a",
+      "source-slot" : "Data RGB",
+      "target-slot" : "Input",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "1ee89d80-eb8b-4522-af70-9ac92b30c04c",
+      "target-node" : "0faf2e33-42e9-42d7-8953-4b8c43988626",
+      "source-slot" : "Files",
+      "target-slot" : "Input",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "bd3088df-a052-4245-884f-e7736b5879fc",
+      "target-node" : "2d3a5f77-3bc8-4382-afe5-3499bb0385ed",
+      "source-slot" : "Output",
+      "target-slot" : "Input",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "e67e4303-bf99-4447-9b8a-2b64b2d8dd66",
+      "target-node" : "fa35fc95-a946-436b-bc2d-edd01fcced59",
+      "source-slot" : "Data ROI",
+      "target-slot" : "Input",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "6899fa8d-3623-400f-a2eb-5a08caa3bf7e",
+      "target-node" : "06a5baf8-e10e-4145-996a-6d2755af354b",
+      "source-slot" : "Data",
+      "target-slot" : "Image",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "1fdcacd3-b984-4ab8-9ecc-62fa37b86734",
+      "target-node" : "afeca549-aa70-4514-acd4-5d650b9e73b8",
+      "source-slot" : "Output",
+      "target-slot" : "Folders",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "88e12f14-c489-4614-8679-b24d2e842899",
+      "target-node" : "967777a2-7f63-4e91-a601-7770ae8d77b2",
+      "source-slot" : "Output",
+      "target-slot" : "Model",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "30133abf-d1ef-4f96-bf38-773eb1995a0e",
+      "target-node" : "989b437d-340a-43bf-a9b1-c6945db86fa0",
+      "source-slot" : "Output",
+      "target-slot" : "Input",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "e67e4303-bf99-4447-9b8a-2b64b2d8dd66",
+      "target-node" : "cd9c5c3d-61d0-4bfe-8b72-52ab2c6bd492",
+      "source-slot" : "Data Label",
+      "target-slot" : "Input",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "967777a2-7f63-4e91-a601-7770ae8d77b2",
+      "target-node" : "06a5baf8-e10e-4145-996a-6d2755af354b",
+      "source-slot" : "ROI",
+      "target-slot" : "ROI",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "10f2646b-2c48-4359-ba44-2d39ad8cac44",
+      "target-node" : "b09ef4e4-a329-4db4-bb1e-d1fea92c64f5",
+      "source-slot" : "Output",
+      "target-slot" : "Folders",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "bd3088df-a052-4245-884f-e7736b5879fc",
+      "target-node" : "cf727b25-5bfb-4214-b164-93a517d18fdf",
+      "source-slot" : "Output",
+      "target-slot" : "Input",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "cf727b25-5bfb-4214-b164-93a517d18fdf",
+      "target-node" : "0de065ff-75a5-4a03-9c22-147169a20b2d",
+      "source-slot" : "Output",
+      "target-slot" : "Input",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "254a400f-056c-4f11-a2d6-1268b2de461c",
+      "target-node" : "6899fa8d-3623-400f-a2eb-5a08caa3bf7e",
+      "source-slot" : "C2",
+      "target-slot" : "Data",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "66554ad3-15a9-44ff-b94d-59d459822654",
+      "target-node" : "30133abf-d1ef-4f96-bf38-773eb1995a0e",
+      "source-slot" : "Output",
+      "target-slot" : "Input",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "e67e4303-bf99-4447-9b8a-2b64b2d8dd66",
+      "target-node" : "66554ad3-15a9-44ff-b94d-59d459822654",
+      "source-slot" : "Data Label",
+      "target-slot" : "Input",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "afeca549-aa70-4514-acd4-5d650b9e73b8",
+      "target-node" : "dfa333de-9bcf-417f-b82a-81dba9061747",
+      "source-slot" : "Subfolders",
+      "target-slot" : "Input",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "0faf2e33-42e9-42d7-8953-4b8c43988626",
+      "target-node" : "bd3088df-a052-4245-884f-e7736b5879fc",
+      "source-slot" : "Output",
+      "target-slot" : "Input",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "2d3a5f77-3bc8-4382-afe5-3499bb0385ed",
+      "target-node" : "254a400f-056c-4f11-a2d6-1268b2de461c",
+      "source-slot" : "Output",
+      "target-slot" : "Input",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "6899fa8d-3623-400f-a2eb-5a08caa3bf7e",
+      "target-node" : "f6e8674b-cae7-435a-91b0-591b138df2ce",
+      "source-slot" : "Data",
+      "target-slot" : "Input",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "dfa333de-9bcf-417f-b82a-81dba9061747",
+      "target-node" : "1ee89d80-eb8b-4522-af70-9ac92b30c04c",
+      "source-slot" : "Output",
+      "target-slot" : "Folders",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "277cd701-d346-4a37-8238-970a95817fcd",
+      "target-node" : "c89eca62-45bb-4324-be6e-2c781bb8a48a",
+      "source-slot" : "Folder paths",
+      "target-slot" : "Folders",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "06a5baf8-e10e-4145-996a-6d2755af354b",
+      "target-node" : "e67e4303-bf99-4447-9b8a-2b64b2d8dd66",
+      "source-slot" : "Output",
+      "target-slot" : "Data RGB",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "0de065ff-75a5-4a03-9c22-147169a20b2d",
+      "target-node" : "6899fa8d-3623-400f-a2eb-5a08caa3bf7e",
+      "source-slot" : "C1",
+      "target-slot" : "Data",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "967777a2-7f63-4e91-a601-7770ae8d77b2",
+      "target-node" : "e67e4303-bf99-4447-9b8a-2b64b2d8dd66",
+      "source-slot" : "Labels",
+      "target-slot" : "Data Label",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "f6e8674b-cae7-435a-91b0-591b138df2ce",
+      "target-node" : "967777a2-7f63-4e91-a601-7770ae8d77b2",
+      "source-slot" : "Destination",
+      "target-slot" : "Input",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    }, {
+      "source-node" : "b09ef4e4-a329-4db4-bb1e-d1fea92c64f5",
+      "target-node" : "1fdcacd3-b984-4ab8-9ecc-62fa37b86734",
+      "source-slot" : "Subfolders",
+      "target-slot" : "Input",
+      "metadata" : {
+        "ui-visibility" : "Smart",
+        "ui-shape" : "Elbow"
+      }
+    } ]
+  },
+  "compartments" : {
+    "compartment-graph" : {
+      "nodes" : {
+        "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851" : {
+          "jipipe:graph-compartment" : "",
+          "jipipe:alias-id" : "analysis",
+          "jipipe:slot-configuration" : {
+            "input" : {
+              "Input" : {
+                "slot-data-type" : "jipipe:compartment-output",
+                "slot-type" : "Input",
+                "name" : "Input",
+                "custom-name" : null,
+                "description" : "Incoming data from other compartments",
+                "is-virtual" : false,
+                "save-outputs" : true,
+                "is-optional" : true
+              }
+            },
+            "output" : {
+              "Output" : {
+                "slot-data-type" : "jipipe:compartment-output",
+                "slot-type" : "Output",
+                "name" : "Output",
+                "custom-name" : null,
+                "description" : "",
+                "is-virtual" : false,
+                "save-outputs" : true,
+                "is-optional" : false
+              }
+            }
+          },
+          "jipipe:ui-grid-location" : {
+            "" : {
+              "Vertical" : {
+                "x" : 1,
+                "y" : 1
+              },
+              "VerticalCompact" : {
+                "x" : 1,
+                "y" : 7
+              }
+            }
+          },
+          "jipipe:node-info-id" : "jipipe:project-compartment",
+          "jipipe:node:ui-locked" : false,
+          "show-limited-parameters" : false,
+          "exported-parameters" : {
+            "parameter-reference-groups" : [ ]
+          },
+          "project-overview-color" : {
+            "content" : "#FFFFFF",
+            "enabled" : false
+          },
+          "show-in-project-overview" : true,
+          "jipipe:node:bookmarked" : false,
+          "jipipe:node:name" : "Analysis",
+          "jipipe:node:description" : "<html><head></head><body></body></html>"
+        },
+        "c6d89a0b-c113-48d2-a537-5058c65d19c5" : {
+          "jipipe:graph-compartment" : "",
+          "jipipe:alias-id" : "file-handler",
+          "jipipe:slot-configuration" : {
+            "input" : {
+              "Input" : {
+                "slot-data-type" : "jipipe:compartment-output",
+                "slot-type" : "Input",
+                "name" : "Input",
+                "custom-name" : null,
+                "description" : "Incoming data from other compartments",
+                "is-virtual" : false,
+                "save-outputs" : true,
+                "is-optional" : true
+              }
+            },
+            "output" : {
+              "Output" : {
+                "slot-data-type" : "jipipe:compartment-output",
+                "slot-type" : "Output",
+                "name" : "Output",
+                "custom-name" : null,
+                "description" : "",
+                "is-virtual" : false,
+                "save-outputs" : true,
+                "is-optional" : false
+              }
+            }
+          },
+          "jipipe:ui-grid-location" : {
+            "" : {
+              "VerticalCompact" : {
+                "x" : 1,
+                "y" : 1
+              }
+            }
+          },
+          "jipipe:node-info-id" : "jipipe:project-compartment",
+          "jipipe:node:ui-locked" : false,
+          "show-limited-parameters" : false,
+          "exported-parameters" : {
+            "parameter-reference-groups" : [ ]
+          },
+          "project-overview-color" : {
+            "content" : "#FFFFFF",
+            "enabled" : false
+          },
+          "show-in-project-overview" : true,
+          "jipipe:node:bookmarked" : false,
+          "jipipe:node:name" : "File handler",
+          "jipipe:node:description" : "<html><head></head><body></body></html>"
+        }
+      },
+      "edges" : [ {
+        "source-node" : "c6d89a0b-c113-48d2-a537-5058c65d19c5",
+        "target-node" : "fb3bfe3a-c9c1-4ec4-908b-3f1b7380a851",
+        "source-slot" : "Output",
+        "target-slot" : "Input",
+        "metadata" : {
+          "ui-visibility" : "Smart",
+          "ui-shape" : "Elbow"
+        }
+      } ]
+    }
+  }
+}
