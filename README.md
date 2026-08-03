@@ -41,9 +41,7 @@ Hyphae segmentation masks generated from the brightfield channel using a trained
 ## Outputs
 The pipeline generates:
 - Intensity-based Colocalization ratio per macrophage
-- Intensity-based Colocalization ratio per fungal spore
 - Object-based Colocalization ratio per macrophage
-- Object-based Colocalization ratio per fungal spore
 
 ## Software and Packages
 The analysis was developed in Python using:
