@@ -1,7 +1,7 @@
 # Co-localization of LAMP-1 (Lysosome-Associated Membrane Protein 1) and Fungal Spores and Hyphae
 
 ## Overview
-This pipeline provides object-based and intensity-based colocalization analysis between LAMP-1 and fungal spores in fluorescence microscopy images at both the macrophage and spore levels.
+This pipeline provides object-based and intensity-based colocalization analysis between LAMP-1 and fungal spores in fluorescence microscopy images at macrophage levels.
 
 ![Representative analysis](Representative%20analysis.PNG)
 
@@ -26,8 +26,8 @@ The pipeline has been developed and tested on:
 ## Analysis Workflow
 Required Input
 The analysis requires the following segmentation masks:
-Macrophage segmentation masks generated using the accompanying JIPipe workflow.
-Hyphae segmentation masks generated from the brightfield channel using a trained deep learning model. The repository for the deep learning GUI is available at: [insert GitHub repository link here].
+Macrophage segmentation masks generated from the fluorescence channel using the accompanying JIPipe workflow.
+Hyphae segmentation masks generated from the brightfield channel using a trained deep learning model. The repository for the deep learning GUI is available at: [GitHub repository link here].
 
 1. Load microscopy images and segmentation masks of macrophages and hyphae.
 2. Identify individual macrophages using the provided labeled segmentation.
