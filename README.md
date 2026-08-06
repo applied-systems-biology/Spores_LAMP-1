@@ -34,14 +34,17 @@ Hyphae segmentation masks generated from the brightfield channel using a trained
 3. Binarize the fungal spore channel and applied watershed to resolve overlapping structures.
 4. Binarize the LAMP-1 channel.
 5. Measure overlap between engulfed fungal spores and LAMP-1 signal.
-6. Calculate object-based and intensity-based colocalization metrics.
+6. Calculate phagosomal LAMP-1 as the fraction of the total LAMP-1-positive area within each macrophage that overlaps the associated fungal region. The remaining LAMP-1-positive area is classified as unfused lysosomes.
 
 ![Colocalization ratios](Colocalization%20ratios.PNG)
 
 ## Outputs
-The pipeline generates:
-- Intensity-based Colocalization ratio per macrophage
-- Object-based Colocalization ratio per macrophage
+The pipeline generates a dataframe containing, for each macrophage:
+- Experiment, time point, infection type, and image identifier
+- Macrophage ID
+- Engulfed fungal object(s) (conidia and/or hyphae)
+- Percentage of phagosomal LAMP-1
+- Percentage of unfused lysosomes
 
 ## Software and Packages
 The analysis was developed in Python using:
