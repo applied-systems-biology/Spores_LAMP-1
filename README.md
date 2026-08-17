@@ -1,7 +1,7 @@
 # Co-localization of LAMP-1 (Lysosome-Associated Membrane Protein 1) and Fungal Spores and Hyphae
 
 ## Overview
-This pipeline provides object-based and intensity-based colocalization analysis between LAMP-1 and fungal spores in fluorescence microscopy images at macrophage levels.
+This pipeline provides object-based and intensity-based colocalization analysis between LAMP-1 and fungal spores in fluorescence microscopy images at macrophages levels.
 
 ![Representative analysis](Representative%20analysis.PNG)
 
